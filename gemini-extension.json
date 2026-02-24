@@ -1,0 +1,22 @@
+{
+  "name": "career-market-optimization-engine",
+  "version": "1.0.0",
+  "description": "Professional engineering engine for ATS optimization, salary benchmarking, and career growth strategy.",
+  "author": "Balbus95",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Balbus95/career-market-optimization-engine.git"
+  },
+  "keywords": [
+    "career",
+    "cv",
+    "ats",
+    "salary",
+    "optimization",
+    "job-search"
+  ],
+  "engines": {
+    "gemini": "^0.29.0"
+  }
+}

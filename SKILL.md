@@ -65,7 +65,7 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 
 ## Specialized Commands
 
-### `Aggiorna Market Data`
+### `Update Market Data`
 When this command is received, the agent must:
 1. Gather latest labor market trends, ATS algorithm updates, and LinkedIn best practices.
 2. Output the info in a Markdown block, structured like `references/market_data.md`, ready for copy-pasting.

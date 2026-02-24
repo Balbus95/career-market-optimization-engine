@@ -1,0 +1,34 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Runs on pushes to tags starting with v (e.g., v1.0.0, v1.0.1)
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grant write permission to the GITHUB_TOKEN
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Fetch all history for changelog generation
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by GitHub
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: |
+          # Release Notes
+
+          ${{ github.event.head_commit.message }}
+          
+          See changes in this release: ${{ github.event.repository.html_url }}/compare/${{ github.event.before }}...${{ github.ref }}
+        draft: false
+        prerelease: false
