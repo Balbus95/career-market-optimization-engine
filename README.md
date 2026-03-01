@@ -1,62 +1,82 @@
-# 🚀 Career Growth Assistant
+# 🚀 Career Market Optimization Engine
 
-> **A simple tool to help you get the job you want and the salary you deserve.**
+> **An advanced, data-driven engine for ATS optimization, salary benchmarking, and career growth strategy.**
 
-This project is designed to help anyone improve their professional image. You don't need to be a tech expert to use it. Think of it as a personal career consultant that helps you fix your CV, prepare for interviews, and find better job opportunities.
-
----
-
-## 🌟 How can this help you? (Real Examples)
-
-### 1. Changing Your Career Path
-*   **The Situation:** "I have worked in retail for 5 years, but now I want to work in an office as a Project Assistant. I'm afraid my CV only looks like a salesperson's CV."
-*   **How the tool helps:** It looks at your experience and finds "hidden skills" like organizing schedules or managing budgets. It then rewrites these parts so an office manager will see you are a great fit for the new role.
-
-### 2. Asking for a Better Salary
-*   **The Situation:** "I have a job interview tomorrow. They asked me what my salary expectations are, but I have no idea what is fair."
-*   **How the tool helps:** You tell the tool your job title and your experience. It checks current market data and tells you: *"For your level, a fair salary is between $50k and $60k. Mention your specific certification to justify the higher end."*
-
-### 3. Finding Jobs That Aren't "Public"
-*   **The Situation:** "I'm tired of seeing the same 10 jobs on LinkedIn every day. Are there more?"
-*   **How the tool helps:** It gives you special "search phrases" to type into Google or LinkedIn. These phrases find posts from managers who are hiring directly but haven't put up an official job advertisement yet.
-
-### 4. Making Your CV "Computer-Friendly"
-*   **The Situation:** "I send out many CVs but never get a call back. Is something wrong?"
-*   **How the tool helps:** Most big companies use computers to scan CVs first. If your CV has too many images or a strange layout, the computer might skip it. This tool helps you create a clean, simple CV that these computers can actually read.
+The Career Market Optimization Engine transforms raw career data into high-impact, ATS-friendly application materials. Designed for professionals who want to optimize their career trajectory, it acts as a strategic career consultant using evidence-based market data and proven methodologies (like the STAR/PAR framework and Holland Codes).
 
 ---
 
-## 🛠️ How to Use It (Step-by-Step)
+## 🌟 Core Capabilities & Value Proposition
 
-You can talk to this tool just like you would talk to a person.
+### 1. ATS-Standardized Master CV Engineering
+*   **The Challenge:** High rejection rates due to non-compliant CV formats or lack of keyword optimization.
+*   **The Engine's Solution:** Creates a minimalist, structurally optimized "Master CV" and extracts highly targeted 1-2 page vertical versions. It balances Job Description (JD) keyword density with human readability to seamlessly bypass Applicant Tracking Systems (ATS).
 
-### Step 1: Share Your Info
-Give the tool your current CV and, if you have one, a link to a job you like.
-> *"Here is my CV. I want to apply for this Manager position. What should I change?"*
+### 2. Evidence-Based Compensation Benchmarking
+*   **The Challenge:** Uncertainty during salary negotiations or lack of data justifying higher compensation.
+*   **The Engine's Solution:** Utilizes reference market data and "Value-to-Company" (V2C) logic to provide realistic, ROI-focused salary estimations. It formulates justifications tied directly to your quantifiable achievements and hard metrics.
 
-### Step 2: Get Your New CV
-The tool will suggest exactly which words to change to make you stand out.
-> *"Rewrite my last job description to show that I saved the company money."*
+### 3. "Hidden Market" Infiltration & Visibility
+*   **The Challenge:** Relying solely on public job boards with extremely high competition.
+*   **The Engine's Solution:** Generates complex Boolean search strings to uncover hidden job opportunities, facilitating direct-to-manager outreach. It uniquely optimizes the critical first 275 characters of your LinkedIn profile for maximum desktop and mobile engagement.
 
-### Step 3: Prepare for the Interview
-Ask the tool to help you practice.
-> *"Act like a recruiter and ask me 3 difficult questions for this role."*
+### 4. Strategic Content Re-engineering (STAR)
+*   **The Challenge:** Generic experience descriptions that fail to demonstrate real impact.
+*   **The Engine's Solution:** Rewrites professional achievements using the precise STAR methodology (Action Verb + Context/Problem + Action Taken + Result/Metric). This ensures a professional, ROI-focused, and data-driven narrative adaptable to Startup, Corporate, or Freelance environments.
 
 ---
 
-## 📂 What's Inside?
-*   **Market Data:** Information about salaries and what skills are popular right now.
-*   **Calculators:** Simple tools to help you decide which new skill you should learn first to increase your pay.
-*   **Templates:** Ready-to-use formats for your CV and messages to send to recruiters.
+## 🛠️ Operational Workflow
+
+The engine operates through strictly structured phases to guarantee strategic alignment:
+
+*   **Phase 0:** Dynamic Market Intelligence & Strategic Positioning
+*   **Phase 1:** Contextual Input Analysis & Master CV Engineering
+*   **Phase 2:** Content Engineering (STAR/PAR Evolution)
+*   **Phase 3:** Technical Visibility & ATS Standardization
+*   **Phase 4:** Strategic Action & Gap Analysis
+*   **Phase 5:** Performance Tracking & Optimization
+*   **Phase 6:** Compensation Benchmarking & ROI Valuation
+
+---
+
+## ⚡ Quick Start & Prompt Examples (Operational Execution)
+
+To initiate the engine, provide clear operational directives using the following structured prompts:
+
+### 1. Master CV Engineering & ATS Optimization
+> *"Analyze the attached JD and my current CV. Extract a 1-page Vertical CV optimized for this role. Implement exact-match keywords and convert all bullet points into the STAR format, prioritizing quantified metrics and ROI."*
+
+### 2. Market Value & Compensation Benchmarking (V2C)
+> *"I am applying for a [Target Role] in [Location/Industry] with [X] years of experience. Use your V2C logic and market data to provide an evidence-based salary benchmark and formulate 3 data-driven justifications I can use during negotiations."*
+
+### 3. "Hidden Market" Infiltration
+> *"Generate a series of complex Boolean search strings to find unadvertised [Target Role] positions on LinkedIn and Google. Focus on posts from hiring managers or executives rather than standard job listings."*
+
+### 4. LinkedIn Hook Optimization & Technical Visibility
+> *"Here is the 'About' section of my LinkedIn profile. Re-engineer the first 275 characters to maximize immediate desktop and mobile engagement, focusing on my core UVP and hard metrics."*
+
+---
+## 📂 Repository Contents
+
+*   **Strategic Workflows (`SKILL.md`):** Comprehensive system constraints, operational flows, and narrative logic.
+*   **System Context (`GEMINI.md`):** Core mandates and tone guidelines for AI processing.
+*   **Market Data (`references/market_data.md`):** Evidence-based salary and skill demand benchmarks.
+*   **Calculators (`scripts/calculate_priority.py`):** Tools for objective skill gap analysis and career development prioritization.
 
 ---
 
 ## 📥 Installation
 
-If you have the Gemini CLI installed, you can add this skill by running:
+Install the extension directly via the Gemini CLI using the following command:
+
 ```bash
-npx skills add Balbus95/career-market-optimization-engine
+gemini extensions install https://github.com/Balbus95/career-market-optimization-engine
 ```
+
+*(Alternatively, you can add it via npx: `npx skills add Balbus95/career-market-optimization-engine`)*
+
+---
 
 ## 📜 License
 Free to use and share under the MIT License.
