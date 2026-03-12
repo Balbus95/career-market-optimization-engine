@@ -42,6 +42,7 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 2. **ATS Compatibility & Aesthetics:**
     *   **Warning:** Avoid multi-column layouts, tables, graphics, or complex LaTeX exports (parser failure risk).
     *   **Legibility:** Use modern, ATS-safe fonts: **Roboto, Lora, Calibri, or Verdana** (10-12pt body, 14-16pt headings).
+    *   **Section Headings:** Strictly use universal, ATS-recognized headings (e.g., "Professional Summary", "Work Experience", "Education", "Skills", "Projects"). Avoid creative variations to ensure proper parser semantic mapping.
 3. **Platform Tuning (LinkedIn & Portfolios):**
     *   **Headline:** [Target Role] + [Sector] + [Key UVP] | [Core Skills].
     *   **Hook:** Optimize the first 275 characters for mobile/desktop engagement.
