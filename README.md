@@ -62,6 +62,8 @@ Instead of generic prompts, the Engine is equipped with 10 automated **Slash Com
     *   *What it does:* Acts as a brutally honest Fortune 500 HR director. It performs an "autopsy" on your Professional Profile, destroys your cliches, cross-examines your vague claims, and rewrites it surgically.
 
 ### Phase 3: Validation & Direct Action
+*   **`/final-audit`**:
+    *   *What it does:* The Ultimate Gatekeeper. It performs a 360° check on your final CV across 4 pillars (ATS Parseability, JD Alignment, Action Impact, and Tone), generating a visual dashboard with a final score (0-100) and your top 3 mandatory fixes.
 *   **`/ats-audit`**:
     *   *What it does:* Acts as an ATS parser. It scans your final CV text to ensure you used standard headings (e.g., "Work Experience", not "My Journey") and warns you of formatting that could break the parsing software.
 *   **`/cover-letter`**:

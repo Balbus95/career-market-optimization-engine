@@ -72,6 +72,7 @@ To execute automated workflows, prompt the agent using the following slash comma
 *   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills based on a provided CV and target role.
 *   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics and providing placeholders for missing data.
 *   `/ats-audit`: Performs a strict compliance check on a CV text against ATS parsing rules (headings, fonts, structure) and provides a pass/fail score.
+*   `/final-audit`: Performs a 360-degree final evaluation across 4 pillars (ATS, Target Alignment, Action & Impact, Professional Tone) generating a final score and dashboard.
 *   `/v2c-salary`: Calculates the candidate's Value-to-Company (ROI) based on achievements and provides a data-driven salary range and negotiation script.
 *   `/boolean-hack`: Generates 3 complex Boolean search strings (for LinkedIn and Google) to uncover hidden job opportunities and bypass standard HR filters.
 *   `/ruthless-mentor`: Adopts a brutally honest HR persona to tear down weak profiles, cross-examine vague claims, and perform a surgical rewrite (4-phase process).
