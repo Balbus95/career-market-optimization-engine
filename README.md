@@ -40,22 +40,39 @@ The engine operates through strictly structured phases to guarantee strategic al
 
 ---
 
-## ⚡ Quick Start & Slash Commands
+## 📖 The Operating Manual: How to Use the Engine
 
-To initiate the engine's automated workflows, use the following slash commands:
+Instead of generic prompts, the Engine is equipped with 10 automated **Slash Commands**. You can think of them as specialized agents ready to process your documents.
 
-*   **`/linkedin-optimizer`**: Generate an ATS-optimized Headline, a 250-word About section, and top skills based on your CV.
-*   **`/rewrite-impact`**: Transform task-based bullet points into high-impact STAR framework achievements.
-*   **`/ats-audit`**: Perform a strict compliance check on a CV against ATS parsing rules with a pass/fail score.
-*   **`/v2c-salary`**: Calculate your Value-to-Company (ROI) to get a data-driven salary range and negotiation script.
-*   **`/boolean-hack`**: Generate 3 advanced Boolean search strings to uncover hidden job opportunities on LinkedIn/Google.
-*   **`/ruthless-mentor`**: Get a brutally honest, 4-phase "autopsy" and rewrite of your Professional Profile from a veteran Fortune 500 HR persona.
-*   **`/tailor-cv`**: Extract a targeted Vertical CV from your Master CV, optimized for a specific Job Description.
-*   **`/cover-letter`**: Generate a targeted, ROI-focused cover letter that highlights how you solve the company's specific problems.
-*   **`/interview-prep`**: Simulate an interview based on your CV and a JD, getting the top 5 questions and STAR answer strategies.
-*   **`/skill-gap`**: Analyze a JD against your CV to find critical gaps and get a prioritized learning/mitigation plan.
+### Phase 1: Preparation & Alignment
+*   **`/tailor-cv`**: 
+    *   *What it does:* You provide your Master CV and a Job Description. It extracts a perfectly tailored 1-page "Vertical CV", filtering out irrelevant fluff and injecting the exact-match keywords the ATS is looking for.
+*   **`/skill-gap`**:
+    *   *What it does:* Cross-references your CV with a Job Description. It highlights your critical weaknesses, partial matches, and provides a prioritized strategy on how to mitigate them (e.g., what to study, how to pivot).
 
-*(You can still prompt the engine naturally for custom requests, e.g., "Analyze this Job Description and give me...").*
+### Phase 2: Content Optimization (STAR Framework)
+*   **`/rewrite-impact`**:
+    *   *What it does:* Takes your boring "task-based" bullet points (e.g., *"Responsible for managing the team"*) and re-engineers them into the STAR framework (e.g., *"Spearheaded a team of 5, reducing delivery time by 20%..."*). It will explicitly ask you for missing metrics.
+*   **`/linkedin-optimizer`**:
+    *   *What it does:* Takes your CV and generates an SEO-optimized LinkedIn Headline (max 220 chars), a magnetic "About" section hook (first 275 chars), and lists the top 15 Hard Skills to pin to your profile.
+*   **`/ruthless-mentor`**:
+    *   *What it does:* Acts as a brutally honest Fortune 500 HR director. It performs an "autopsy" on your Professional Profile, destroys your cliches, cross-examines your vague claims, and rewrites it surgically.
+
+### Phase 3: Validation & Direct Action
+*   **`/ats-audit`**:
+    *   *What it does:* Acts as an ATS parser. It scans your final CV text to ensure you used standard headings (e.g., "Work Experience", not "My Journey") and warns you of formatting that could break the parsing software.
+*   **`/cover-letter`**:
+    *   *What it does:* Generates a highly aggressive, ROI-driven cover letter focused entirely on problem-solving. No generic cliches.
+*   **`/boolean-hack`**:
+    *   *What it does:* You provide a role and a city. It generates 3 advanced Boolean search strings (for Google and LinkedIn) to bypass standard job boards and find hidden posts published directly by Hiring Managers.
+
+### Phase 4: The Interview & Negotiation
+*   **`/interview-prep`**:
+    *   *What it does:* Simulates a demanding interview. Based on your CV and the JD, it predicts the 5 most difficult/probable questions they will ask you, and tells you *which* of your past achievements to use to answer them perfectly.
+*   **`/v2c-salary`**:
+    *   *What it does:* The Value-to-Company calculator. It estimates a realistic salary range based on market data and the ROI of your achievements. It provides you with a 3-line negotiation script to justify your request mathematically.
+
+*(You can still prompt the engine naturally for custom requests, e.g., "Analyze this Job Description and give me general advice...").*
 
 ---
 ## 📂 Repository Contents
