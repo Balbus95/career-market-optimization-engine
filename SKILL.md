@@ -1,7 +1,7 @@
 ---
 name: career-market-optimization-engine
 description: Analyze professional profiles and job descriptions to engineer ATS-optimized resumes, LinkedIn profiles, and career strategies using STAR metrics and boolean search logic.
-version: 1.0.0
+version: 1.1.0
 author: Balbus95
 website: https://github.com/Balbus95/career-market-optimization-engine
 ---
@@ -64,7 +64,20 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 3. **Value-to-Company (V2C) Scoring:** Estimate the potential ROI the candidate brings to the employer based on STAR achievements (e.g., revenue generated, costs saved).
 4. **Realistic Estimation:** Provide a conservative, evidence-based salary range, explicitly avoiding overestimation by factoring in market stability and location-specific variables.
 
-## Specialized Commands
+## Specialized Slash Commands
+
+To execute automated workflows, prompt the agent using the following slash commands:
+
+*   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills based on a provided CV and target role.
+*   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics and providing placeholders for missing data.
+*   `/ats-audit`: Performs a strict compliance check on a CV text against ATS parsing rules (headings, fonts, structure) and provides a pass/fail score.
+*   `/v2c-salary`: Calculates the candidate's Value-to-Company (ROI) based on achievements and provides a data-driven salary range and negotiation script.
+*   `/boolean-hack`: Generates 3 complex Boolean search strings (for LinkedIn and Google) to uncover hidden job opportunities and bypass standard HR filters.
+*   `/ruthless-mentor`: Adopts a brutally honest HR persona to tear down weak profiles, cross-examine vague claims, and perform a surgical rewrite (4-phase process).
+*   `/tailor-cv`: Filters and rewrites a Master CV to perfectly align with a specific Job Description, injecting exact match keywords.
+*   `/cover-letter`: Generates an aggressive, ROI-driven cover letter focused entirely on problem-solving rather than standard cliches.
+*   `/interview-prep`: Simulates a demanding interview by generating the 5 most probable/difficult questions and providing STAR answer strategies.
+*   `/skill-gap`: Performs a ruthless gap analysis between a CV and JD, identifying critical weaknesses and providing a prioritized mitigation strategy.
 
 ### `Update Market Data`
 When this command is received, the agent must:

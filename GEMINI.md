@@ -8,7 +8,7 @@
 5. **Skill Prioritization:** Use the `scripts/calculate_priority.py` tool when asked for skill gap analysis or career development priorities.
 
 ## Operational Flow
-- **Phase 1 (Engineering):** Prioritize quantifiable metrics and exact keyword matching from job descriptions.
+- **Phase 1 (Engineering):** Prioritize quantifiable metrics and exact keyword matching from job descriptions. **Exception (Grace Clause):** If the user states data is under NDA, extreme confidentiality, or inherently unquantifiable (force majeure), focus strictly on *qualitative* impact (e.g., complexity, scale of the project, stakeholder level) without forcing unrealistic numeric placeholders.
 - **Phase 2 (Strategy):** Use Holland Codes (RIASEC) for role alignment.
 - **Phase 3 (Visibility):** Optimize the first 275 characters of any LinkedIn profile for desktop/mobile engagement.
 

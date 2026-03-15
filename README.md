@@ -40,29 +40,31 @@ The engine operates through strictly structured phases to guarantee strategic al
 
 ---
 
-## ⚡ Quick Start & Prompt Examples (Operational Execution)
+## ⚡ Quick Start & Slash Commands
 
-To initiate the engine, provide clear operational directives using the following structured prompts:
+To initiate the engine's automated workflows, use the following slash commands:
 
-### 1. Master CV Engineering & ATS Optimization
-> *"Analyze the attached JD and my current CV. Extract a 1-page Vertical CV optimized for this role. Implement exact-match keywords and convert all bullet points into the STAR format, prioritizing quantified metrics and ROI."*
+*   **`/linkedin-optimizer`**: Generate an ATS-optimized Headline, a 250-word About section, and top skills based on your CV.
+*   **`/rewrite-impact`**: Transform task-based bullet points into high-impact STAR framework achievements.
+*   **`/ats-audit`**: Perform a strict compliance check on a CV against ATS parsing rules with a pass/fail score.
+*   **`/v2c-salary`**: Calculate your Value-to-Company (ROI) to get a data-driven salary range and negotiation script.
+*   **`/boolean-hack`**: Generate 3 advanced Boolean search strings to uncover hidden job opportunities on LinkedIn/Google.
+*   **`/ruthless-mentor`**: Get a brutally honest, 4-phase "autopsy" and rewrite of your Professional Profile from a veteran Fortune 500 HR persona.
+*   **`/tailor-cv`**: Extract a targeted Vertical CV from your Master CV, optimized for a specific Job Description.
+*   **`/cover-letter`**: Generate a targeted, ROI-focused cover letter that highlights how you solve the company's specific problems.
+*   **`/interview-prep`**: Simulate an interview based on your CV and a JD, getting the top 5 questions and STAR answer strategies.
+*   **`/skill-gap`**: Analyze a JD against your CV to find critical gaps and get a prioritized learning/mitigation plan.
 
-### 2. Market Value & Compensation Benchmarking (V2C)
-> *"I am applying for a [Target Role] in [Location/Industry] with [X] years of experience. Use your V2C logic and market data to provide an evidence-based salary benchmark and formulate 3 data-driven justifications I can use during negotiations."*
-
-### 3. "Hidden Market" Infiltration
-> *"Generate a series of complex Boolean search strings to find unadvertised [Target Role] positions on LinkedIn and Google. Focus on posts from hiring managers or executives rather than standard job listings."*
-
-### 4. LinkedIn Hook Optimization & Technical Visibility
-> *"Here is the 'About' section of my LinkedIn profile. Re-engineer the first 275 characters to maximize immediate desktop and mobile engagement, focusing on my core UVP and hard metrics."*
+*(You can still prompt the engine naturally for custom requests, e.g., "Analyze this Job Description and give me...").*
 
 ---
 ## 📂 Repository Contents
 
 *   **Strategic Workflows (`SKILL.md`):** Comprehensive system constraints, operational flows, and narrative logic.
+*   **Automated Commands (`workflows/`):** Slash commands (`/linkedin-optimizer`, `/ats-audit`, etc.) to execute specific tasks instantly.
 *   **System Context (`GEMINI.md`):** Core mandates and tone guidelines for AI processing.
 *   **Market Data (`references/market_data.md`):** Evidence-based salary and skill demand benchmarks.
-*   **Calculators (`scripts/calculate_priority.py`):** Tools for objective skill gap analysis and career development prioritization.
+*   **Calculators (`scripts/`):** Python tools (e.g., `calculate_priority.py`) for objective skill gap analysis.
 
 ---
 
