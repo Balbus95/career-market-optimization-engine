@@ -42,7 +42,10 @@ The engine operates through strictly structured phases to guarantee strategic al
 
 ## 📖 The Operating Manual: How to Use the Engine
 
-Instead of generic prompts, the Engine is equipped with 10 automated **Slash Commands**. You can think of them as specialized agents ready to process your documents.
+Instead of generic prompts, the Engine is equipped with automated **Slash Commands**. You can think of them as specialized agents ready to process your documents.
+
+### Unsure where to start?
+Just write "Hi", "Help", or **`/init`** to activate the engine. It will automatically present you with a **4-option Triage Menu** to route you to the correct tool depending on your current needs.
 
 ### Phase 0: Creation & Structuring
 *   **`/build-cv`**: Start from scratch. The engine will interview you, help you find your target role if unsure, and build a 100% ATS-compliant Master CV.

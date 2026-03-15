@@ -12,6 +12,10 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 
 ## Core Workflow
 
+### 🚀 Initialization Protocol (The `/init` Command)
+*   If the user activates the skill with a generic greeting (e.g., "Hi", "Help") OR without a clear prompt, you **MUST** automatically execute the `/init` workflow to present the 4-option Triage Menu.
+*   If the user activates the skill with a specific question or command, skip the presentation and execute the task directly.
+
 ### Phase 0: Dynamic Market Intelligence & Strategic Positioning
 1. **Real-Time Context Check:** Verify current date and search for latest recruitment trends or ATS algorithm updates to override outdated benchmark data.
 2. **Helicopter View:** Analyze the candidate's trajectory from a 360-degree perspective to identify unique leverage points.
