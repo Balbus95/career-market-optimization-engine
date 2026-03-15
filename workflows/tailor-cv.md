@@ -25,4 +25,7 @@ Analyze the Job Description and extract:
 * Maintain the STAR framework and quantifiable metrics.
 
 **Output Rules:**
-Output the fully tailored CV in a clean, ATS-friendly markdown format. Do NOT use multi-column layouts or tables. Include a brief summary at the top explaining the major keyword adaptations made.
+Output the fully tailored CV in a clean, ATS-friendly markdown format. Do NOT use multi-column layouts or tables. Include a brief summary at the top explaining the major keyword adaptations made. 
+
+*Crucial Chaining Step:* At the very end of your response, you MUST append this exact message:
+> *"💡 Tip: Now that your CV is tailored to this specific JD, I can generate a highly targeted cover letter to match. Just type `/cover-letter` and I'll process it immediately using these exact data points."*

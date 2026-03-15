@@ -71,14 +71,23 @@ Just write "Hi", "Help", or **`/init`** to activate the engine. It will automati
     *   *What it does:* Acts as an ATS parser. It scans your final CV text to ensure you used standard headings (e.g., "Work Experience", not "My Journey") and warns you of formatting that could break the parsing software.
 *   **`/cover-letter`**:
     *   *What it does:* Generates a highly aggressive, ROI-driven cover letter focused entirely on problem-solving. No generic cliches.
-*   **`/boolean-hack`**:
-    *   *What it does:* You provide a role and a city. It generates 3 advanced Boolean search strings (for Google and LinkedIn) to bypass standard job boards and find hidden posts published directly by Hiring Managers.
 
-### Phase 4: The Interview & Negotiation
+### Phase 4: Job Search, Interview & Negotiation
+*   **`/job-hunt`**:
+    *   *What it does:* The Live Radar. Feed it a role, location (Remote/Hybrid/City), and constraints, and it browses the live web to find 3-5 active job postings returning direct links.
+*   **`/boolean-hack`**:
+    *   *What it does:* Generates advanced Boolean search strings (for Google and LinkedIn) to bypass standard job boards and find hidden posts published directly by Hiring Managers.
 *   **`/interview-prep`**:
-    *   *What it does:* Simulates a demanding interview. Based on your CV and the JD, it predicts the 5 most difficult/probable questions they will ask you, and tells you *which* of your past achievements to use to answer them perfectly.
+    *   *What it does:* Simulates a demanding interview. Based on your CV and the JD, it predicts the 5 most difficult/probable questions and helps you map your STAR achievements to the answers.
 *   **`/v2c-salary`**:
-    *   *What it does:* The Value-to-Company calculator. It estimates a realistic salary range based on market data and the ROI of your achievements. It provides you with a 3-line negotiation script to justify your request mathematically.
+    *   *What it does:* The Value-to-Company calculator. It estimates a realistic salary range based on market data and the ROI of your achievements, providing a negotiation script.
+
+### 🔋 Secondary Workflows (Power Tools)
+These tools handle the crucial peripheral steps of career advancement:
+*   **`/cold-outreach`**: Generates 3 variants of aggressive, ROI-focused cold messages to send to Hiring Managers on LinkedIn or via Email.
+*   **`/follow-up`**: Drafts strategic post-interview thank-you emails that reiterate exactly how you will solve the pain points discussed in the interview.
+*   **`/case-study`**: Takes a messy brain-dump of a project you completed and structures it into a sleek, business-focused "Problem-Action-Result" Case Study for your portfolio.
+*   **`/promo-pitch`**: Builds a data-driven internal business case (ROI-focused) to present to your boss when asking for a raise or promotion.
 
 *(You can still prompt the engine naturally for custom requests, e.g., "Analyze this Job Description and give me general advice...").*
 

@@ -72,18 +72,27 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 
 To execute automated workflows, prompt the agent using the following slash commands:
 
+### 🌟 Primary Workflows (Core Engine)
+*   `/init`: Handles initial skill activation without specific commands by presenting a 4-option Triage Menu.
 *   `/build-cv`: Interview the candidate from scratch to extract career data, define their target role (using Holland Codes if unsure), and generate a new Master CV.
-*   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills based on a provided CV and target role.
-*   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics and providing placeholders for missing data.
+*   `/tailor-cv`: Filters and rewrites a Master CV to perfectly align with a specific Job Description, injecting exact match keywords.
+*   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills.
+*   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics.
 *   `/ats-audit`: Performs a strict compliance check on a CV text against ATS parsing rules (headings, fonts, structure) and provides a pass/fail score.
 *   `/final-audit`: Performs a 360-degree final evaluation across 4 pillars (ATS, Target Alignment, Action & Impact, Professional Tone) generating a final score and dashboard.
 *   `/v2c-salary`: Calculates the candidate's Value-to-Company (ROI) based on achievements and provides a data-driven salary range and negotiation script.
-*   `/boolean-hack`: Generates 3 complex Boolean search strings (for LinkedIn and Google) to uncover hidden job opportunities and bypass standard HR filters.
-*   `/ruthless-mentor`: Adopts a brutally honest HR persona to tear down weak profiles, cross-examine vague claims, and perform a surgical rewrite (4-phase process).
-*   `/tailor-cv`: Filters and rewrites a Master CV to perfectly align with a specific Job Description, injecting exact match keywords.
-*   `/cover-letter`: Generates an aggressive, ROI-driven cover letter focused entirely on problem-solving rather than standard cliches.
-*   `/interview-prep`: Simulates a demanding interview by generating the 5 most probable/difficult questions and providing STAR answer strategies.
+*   `/boolean-hack`: Generates 3 complex Boolean search strings (for LinkedIn and Google) to uncover hidden job opportunities.
+*   `/ruthless-mentor`: Adopts a brutally honest HR persona to tear down weak profiles and perform a surgical rewrite.
+*   `/cover-letter`: Generates an aggressive, ROI-driven cover letter focused entirely on problem-solving.
+*   `/interview-prep`: Simulates a demanding interview by generating the 5 most probable questions and providing STAR answer strategies.
 *   `/skill-gap`: Performs a ruthless gap analysis between a CV and JD, identifying critical weaknesses and providing a prioritized mitigation strategy.
+*   `/job-hunt`: Performs a live internet search to find active job postings perfectly matching the user's role, location (Remote/Hybrid), and constraints.
+
+### 🔋 Secondary Workflows (Power Tools)
+*   `/cold-outreach`: Generates 3 variants of targeted, ROI-focused cold outreach messages for LinkedIn or Email to connect with Hiring Managers.
+*   `/promo-pitch`: Builds a data-driven internal business case (ROI-focused) to ask for a raise or promotion within the current company.
+*   `/follow-up`: Drafts strategic post-interview thank-you emails that reiterate the candidate's value and ability to solve specific pain points discussed.
+*   `/case-study`: Structures a complex professional project into a clear, business-focused Case Study (PAR method) for a portfolio or presentation.
 
 ### `Update Market Data`
 When this command is received, the agent must:
