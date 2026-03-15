@@ -68,6 +68,7 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 
 To execute automated workflows, prompt the agent using the following slash commands:
 
+*   `/build-cv`: Interview the candidate from scratch to extract career data, define their target role (using Holland Codes if unsure), and generate a new Master CV.
 *   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills based on a provided CV and target role.
 *   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics and providing placeholders for missing data.
 *   `/ats-audit`: Performs a strict compliance check on a CV text against ATS parsing rules (headings, fonts, structure) and provides a pass/fail score.

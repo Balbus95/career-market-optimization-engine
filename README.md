@@ -44,6 +44,9 @@ The engine operates through strictly structured phases to guarantee strategic al
 
 Instead of generic prompts, the Engine is equipped with 10 automated **Slash Commands**. You can think of them as specialized agents ready to process your documents.
 
+### Phase 0: Creation & Structuring
+*   **`/build-cv`**: Start from scratch. The engine will interview you, help you find your target role if unsure, and build a 100% ATS-compliant Master CV.
+
 ### Phase 1: Preparation & Alignment
 *   **`/tailor-cv`**: 
     *   *What it does:* You provide your Master CV and a Job Description. It extracts a perfectly tailored 1-page "Vertical CV", filtering out irrelevant fluff and injecting the exact-match keywords the ATS is looking for.
