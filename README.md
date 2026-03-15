@@ -40,6 +40,15 @@ The engine operates through strictly structured phases to guarantee strategic al
 
 ---
 
+## ⚠️ System & Context Limitations
+
+Given the complexity of the analytical workflows, the Engine operates best with high-tier LLM models capable of handling large context windows. 
+
+*   **Heavy Workflows:** Commands like `/job-hunt` (live web scraping), `/build-cv` (iterative data extraction), and `/final-audit` (360-degree evaluation) require significant processing power and memory.
+*   **Free Tier Warning:** Users on free AI tiers may experience context truncation, memory limits, or degraded performance during these heavy tasks. For the optimal experience across all phases, using a premium LLM subscription is highly recommended.
+
+---
+
 ## 📖 The Operating Manual: How to Use the Engine
 
 Instead of generic prompts, the Engine is equipped with automated **Slash Commands**. You can think of them as specialized agents ready to process your documents.
