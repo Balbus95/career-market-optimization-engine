@@ -113,13 +113,16 @@ These tools handle the crucial peripheral steps of career advancement:
 
 ## 📥 Installation
 
-Install the extension directly via the Gemini CLI using the following command:
+Install the extension directly via `npx` (recommended):
 
+```bash
+npx skills add Balbus95/career-market-optimization-engine
+```
+
+*Alternatively, you can use the Gemini CLI:*
 ```bash
 gemini extensions install https://github.com/Balbus95/career-market-optimization-engine
 ```
-
-*(Alternatively, you can add it via npx: `npx skills add Balbus95/career-market-optimization-engine`)*
 
 ---
 
