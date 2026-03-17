@@ -99,6 +99,7 @@ To execute automated workflows, prompt the agent using the following slash comma
 *   `/reference-check`: Strategically selects professional references and generates briefing scripts to maximize offer conversion.
 *   `/company-research`: Performs live research on a target company before an interview, generating a full intelligence report with culture signals, pain points, and 5 tailored questions.
 *   `/offer-compare`: Compares 2+ competing job offers across 5 dimensions (compensation, growth, alignment, stability, work-life fit), scoring each and providing a concrete recommendation.
+*   `/personal-brand-audit`: Audits the candidate's full digital footprint (Google, LinkedIn, GitHub, portfolio, other platforms), flags inconsistencies, and provides a prioritized action plan for recruiter-facing visibility.
 
 ### `Update Market Data`
 When this command is received, the agent must:

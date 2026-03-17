@@ -104,6 +104,7 @@ These tools handle the crucial peripheral steps of career advancement:
 *   **`/reference-check`**: Strategically selects your references and generates briefing scripts to ensure they reinforce the right narrative.
 *   **`/company-research`**: Deep-dives on a target company before an interview — culture, financials, recent news, pain points, and 5 tailored questions to ask.
 *   **`/offer-compare`**: Compares 2+ competing offers across compensation, growth, stability, and role-fit, scoring each and giving a direct recommendation.
+*   **`/personal-brand-audit`**: Scans your full digital footprint (Google, LinkedIn, GitHub, portfolio), flags inconsistencies across platforms, and gives a prioritized action plan to maximize passive recruiter attraction.
 
 *(You can still prompt the engine naturally for custom requests, e.g., "Analyze this Job Description and give me general advice...").*
 
