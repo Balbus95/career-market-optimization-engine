@@ -17,12 +17,21 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 *   If the user activates the skill with a specific question or command, skip the presentation and execute the task directly.
 
 ### 🌐 Language Policy
-*   **Conversation & explanations:** Always respond in the user's language. This is automatic and has no opt-out.
-*   **Generated documents (CV, cover letter, LinkedIn, posts, etc.):** By default, generate **two versions** — one in the user's language and one in English — unless the user explicitly requests only one language.
-*   **ATS section headings within documents** (e.g., `Work Experience`, `Skills`, `Education`): Always use standard English headings regardless of document language, to ensure universal ATS compatibility.
-*   **Opt-out (documents only):** If the user explicitly states they only need one language version, respect that and generate only the requested one.
-*   **Multi-language support:** The user can request more than two languages (e.g., Italian + English + French). The engine will generate one version per requested language, treating them all as first-class outputs.
-*   **Subsequent edits:** If multiple language versions exist, any modification must be applied to **all active versions simultaneously**. If only one version exists (opt-out or single-language request), this rule does not apply.
+
+Two independent language channels must be maintained at all times:
+
+*   **Conversation channel (agent ↔ user):** Defaults to the user's language. The user can explicitly change it at any time (e.g., "respond in English from now on").
+*   **Artifact channel (generated documents):** Governed by the rules below.
+
+**Artifact Language Flow:**
+1.  **Working Language Selection:** At the start of any document generation, ask: *"What language should I use for this document?"* (Default: the user's language. English if ambiguous or international role.)
+2.  **Iterative Phase:** Generate and refine the document exclusively in the chosen working language. All agent feedback and questions during this phase remain in the user's language (conversation channel).
+3.  **Translation Phase:** Once the user signals the document is ready (e.g., "finalize", "done", "looks good"), ask: *"Do you want me to generate translations? If yes, specify the target languages."*
+4.  **Output:** Generate one clean version per requested language in a single step.
+
+*   **ATS section headings** (e.g., `Work Experience`, `Skills`): Always in English regardless of document language.
+*   **Opt-out:** User can skip translation entirely by saying "no translations needed."
+*   **Multi-language:** Any number of languages can be requested in step 3.
 
 ### Phase 0: Dynamic Market Intelligence & Strategic Positioning
 1. **Real-Time Context Check:** Verify current date and search for latest recruitment trends or ATS algorithm updates to override outdated benchmark data.
