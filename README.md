@@ -102,6 +102,8 @@ These tools handle the crucial peripheral steps of career advancement:
 *   **`/linkedin-post`**: Generates 3 viral-optimized LinkedIn post variants (Short, Story, Data-Driven) to build passive recruiter visibility.
 *   **`/negotiation-counter`**: Generates a precise counter-offer strategy with a full email script and non-salary levers when an offer is below expectations.
 *   **`/reference-check`**: Strategically selects your references and generates briefing scripts to ensure they reinforce the right narrative.
+*   **`/company-research`**: Deep-dives on a target company before an interview — culture, financials, recent news, pain points, and 5 tailored questions to ask.
+*   **`/offer-compare`**: Compares 2+ competing offers across compensation, growth, stability, and role-fit, scoring each and giving a direct recommendation.
 
 *(You can still prompt the engine naturally for custom requests, e.g., "Analyze this Job Description and give me general advice...").*
 

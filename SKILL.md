@@ -97,6 +97,8 @@ To execute automated workflows, prompt the agent using the following slash comma
 *   `/linkedin-post`: Generates 3 high-engagement LinkedIn post variants (Short, Story, Data-Driven) to build passive recruiter visibility.
 *   `/negotiation-counter`: Generates a data-backed counter-offer strategy when an initial salary offer is below expectations, including a full email script and alternative levers.
 *   `/reference-check`: Strategically selects professional references and generates briefing scripts to maximize offer conversion.
+*   `/company-research`: Performs live research on a target company before an interview, generating a full intelligence report with culture signals, pain points, and 5 tailored questions.
+*   `/offer-compare`: Compares 2+ competing job offers across 5 dimensions (compensation, growth, alignment, stability, work-life fit), scoring each and providing a concrete recommendation.
 
 ### `Update Market Data`
 When this command is received, the agent must:
