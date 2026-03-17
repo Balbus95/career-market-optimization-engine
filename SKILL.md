@@ -101,22 +101,8 @@ To execute automated workflows, prompt the agent using the following slash comma
 *   `/offer-compare`: Compares 2+ competing job offers across 5 dimensions (compensation, growth, alignment, stability, work-life fit), scoring each and providing a concrete recommendation.
 *   `/personal-brand-audit`: Audits the candidate's full digital footprint (Google, LinkedIn, GitHub, portfolio, other platforms), flags inconsistencies, and provides a prioritized action plan for recruiter-facing visibility.
 
-### `Update Market Data`
-When this command is received, the agent must use its **live web search tools** to gather current data. Do NOT rely on training data for figures that change over time.
-
-**Mandatory sources to query (minimum baseline):**
-- LinkedIn Talent Insights / LinkedIn Jobs trending roles
-- Stack Overflow Developer Survey (latest edition)
-- Glassdoor / Levels.fyi for compensation data
-- World Economic Forum Future of Jobs Report (latest)
-- ISTAT / Eurostat for Italian/EU labor market data (if region = Italy/EU)
-
-**Additional sources:** The agent is encouraged to search any other authoritative sources it identifies as relevant (e.g., industry-specific reports, company salary databases, government labor statistics). Quality and recency take priority over source loyalty.
-
-**Steps:**
-1. Search each source for: top in-demand skills, salary benchmarks by role/seniority/region, emerging roles, ATS algorithm updates, LinkedIn best practices.
-2. Output the gathered data as a Markdown block **structured identically to `references/market_data.md`**, ready to copy-paste into that file.
-3. Flag the date of each data point so the user knows how fresh the information is.
+### `Update Market Data` / `/update-market-data`
+See dedicated workflow: [`workflows/update-market-data.md`](workflows/update-market-data.md)
 
 ## Reference Materials
 - [market_data.md](references/market_data.md)
