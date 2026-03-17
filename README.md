@@ -90,6 +90,8 @@ Just write "Hi", "Help", or **`/init`** to activate the engine. It will automati
     *   *What it does:* Simulates a demanding interview. Based on your CV and the JD, it predicts the 5 most difficult/probable questions and helps you map your STAR achievements to the answers.
 *   **`/v2c-salary`**:
     *   *What it does:* The Value-to-Company calculator. It estimates a realistic salary range based on market data and the ROI of your achievements, providing a negotiation script.
+*   **`/career-pivot`**:
+    *   *What it does:* Builds a full transition roadmap for career changers: maps transferable skills, identifies gaps, rewrites your narrative for the new industry, and generates a 90-day action plan.
 
 ### 🔋 Secondary Workflows (Power Tools)
 These tools handle the crucial peripheral steps of career advancement:
@@ -97,6 +99,9 @@ These tools handle the crucial peripheral steps of career advancement:
 *   **`/follow-up`**: Drafts strategic post-interview thank-you emails that reiterate exactly how you will solve the pain points discussed in the interview.
 *   **`/case-study`**: Takes a messy brain-dump of a project you completed and structures it into a sleek, business-focused "Problem-Action-Result" Case Study for your portfolio.
 *   **`/promo-pitch`**: Builds a data-driven internal business case (ROI-focused) to present to your boss when asking for a raise or promotion.
+*   **`/linkedin-post`**: Generates 3 viral-optimized LinkedIn post variants (Short, Story, Data-Driven) to build passive recruiter visibility.
+*   **`/negotiation-counter`**: Generates a precise counter-offer strategy with a full email script and non-salary levers when an offer is below expectations.
+*   **`/reference-check`**: Strategically selects your references and generates briefing scripts to ensure they reinforce the right narrative.
 
 *(You can still prompt the engine naturally for custom requests, e.g., "Analyze this Job Description and give me general advice...").*
 

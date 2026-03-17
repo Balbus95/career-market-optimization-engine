@@ -87,12 +87,16 @@ To execute automated workflows, prompt the agent using the following slash comma
 *   `/interview-prep`: Simulates a demanding interview by generating the 5 most probable questions and providing STAR answer strategies.
 *   `/skill-gap`: Performs a ruthless gap analysis between a CV and JD, identifying critical weaknesses and providing a prioritized mitigation strategy.
 *   `/job-hunt`: Performs a live internet search to find active job postings perfectly matching the user's role, location (Remote/Hybrid), and constraints.
+*   `/career-pivot`: Builds a full transition roadmap for candidates switching industries, including transferable skills mapping, gap analysis, narrative reframing, and a 90-day action plan.
 
 ### 🔋 Secondary Workflows (Power Tools)
 *   `/cold-outreach`: Generates 3 variants of targeted, ROI-focused cold outreach messages for LinkedIn or Email to connect with Hiring Managers.
 *   `/promo-pitch`: Builds a data-driven internal business case (ROI-focused) to ask for a raise or promotion within the current company.
 *   `/follow-up`: Drafts strategic post-interview thank-you emails that reiterate the candidate's value and ability to solve specific pain points discussed.
 *   `/case-study`: Structures a complex professional project into a clear, business-focused Case Study (PAR method) for a portfolio or presentation.
+*   `/linkedin-post`: Generates 3 high-engagement LinkedIn post variants (Short, Story, Data-Driven) to build passive recruiter visibility.
+*   `/negotiation-counter`: Generates a data-backed counter-offer strategy when an initial salary offer is below expectations, including a full email script and alternative levers.
+*   `/reference-check`: Strategically selects professional references and generates briefing scripts to maximize offer conversion.
 
 ### `Update Market Data`
 When this command is received, the agent must:
