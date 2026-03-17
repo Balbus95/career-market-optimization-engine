@@ -104,12 +104,14 @@ To execute automated workflows, prompt the agent using the following slash comma
 ### `Update Market Data`
 When this command is received, the agent must use its **live web search tools** to gather current data. Do NOT rely on training data for figures that change over time.
 
-**Mandatory sources to query:**
+**Mandatory sources to query (minimum baseline):**
 - LinkedIn Talent Insights / LinkedIn Jobs trending roles
 - Stack Overflow Developer Survey (latest edition)
 - Glassdoor / Levels.fyi for compensation data
 - World Economic Forum Future of Jobs Report (latest)
 - ISTAT / Eurostat for Italian/EU labor market data (if region = Italy/EU)
+
+**Additional sources:** The agent is encouraged to search any other authoritative sources it identifies as relevant (e.g., industry-specific reports, company salary databases, government labor statistics). Quality and recency take priority over source loyalty.
 
 **Steps:**
 1. Search each source for: top in-demand skills, salary benchmarks by role/seniority/region, emerging roles, ATS algorithm updates, LinkedIn best practices.
