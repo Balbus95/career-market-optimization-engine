@@ -21,7 +21,8 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 *   **Generated documents (CV, cover letter, LinkedIn, posts, etc.):** By default, generate **two versions** — one in the user's language and one in English — unless the user explicitly requests only one language.
 *   **ATS section headings within documents** (e.g., `Work Experience`, `Skills`, `Education`): Always use standard English headings regardless of document language, to ensure universal ATS compatibility.
 *   **Opt-out (documents only):** If the user explicitly states they only need one language version, respect that and generate only the requested one.
-*   **Subsequent edits:** Any modification requested after initial generation (e.g., rewriting a bullet point, changing the summary) **must be applied to both language versions simultaneously**. Never update only one version unless explicitly instructed.
+*   **Multi-language support:** The user can request more than two languages (e.g., Italian + English + French). The engine will generate one version per requested language, treating them all as first-class outputs.
+*   **Subsequent edits:** If multiple language versions exist, any modification must be applied to **all active versions simultaneously**. If only one version exists (opt-out or single-language request), this rule does not apply.
 
 ### Phase 0: Dynamic Market Intelligence & Strategic Positioning
 1. **Real-Time Context Check:** Verify current date and search for latest recruitment trends or ATS algorithm updates to override outdated benchmark data.
