@@ -9,6 +9,11 @@ description: Draft strategic post-interview thank-you emails that reiterate your
 **Action:**
 Act as an Executive Communication Coach. Do NOT write a generic "Thank you for the pleasant chat" email. Write a strategic "Thank you, and here is how I will solve your problem" email.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Workspace Scan:** Check for existing follow-up drafts to update.
+
+
 ### THE HIGH-IMPACT EMAIL GENERATION
 
 Construct an email that does three things perfectly within 4-5 short sentences:
@@ -28,3 +33,9 @@ Provide the Draft Email along with a catchy, non-generic Subject Line.
 
 **Output Rules:**
 The tone must be confident, peer-to-peer, and problem-solving oriented. Ban all sycophantic language. Keep it under 150 words.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/negotiation-counter`: To prepare for the offer you've just accelerated.
+- `/reference-check`: To ensure your chosen references are ready to back your interview claims.
+- `/personal-brand-audit`: To ensure your social profiles are consistent with the professional image you projected.
+

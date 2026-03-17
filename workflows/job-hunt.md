@@ -9,6 +9,9 @@ description: Perform a live internet search for active job postings matching the
 **Action:**
 Act as an Executive Headhunter performing active market research. Your goal is to find real, currently open positions that perfectly match the candidate's criteria.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+
 ### THE 4-TIERED SEARCH PROTOCOL
 **You must use your internet search capabilities/tools to perform this task in real-time.** 
 
@@ -28,6 +31,14 @@ Act as an Executive Headhunter performing active market research. Your goal is t
 
 ### OUTPUT FORMAT: The Hit List
 After scanning all Tiers, present a curated list of the absolute best **5 to 10** positions you found, prioritizing quality and relevance to the user's constraints.
+
+**Output Rules:**
+List 5 to 10 curated opportunities. For each, provide: Title, Company, Location (Remote/Hybrid), and a 1-sentence "Why it matches yours".
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/company-research`: To deep-dive into a specific target company from the list.
+- `/tailor-cv`: To customize your CV for one of these specific roles.
+- `/boolean-hack`: To refine the search if results are too broad.
 
 ```markdown
 # 🌍 Live Radar: Active Opportunities

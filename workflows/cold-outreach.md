@@ -9,6 +9,10 @@ description: Generate targeted, ROI-focused cold outreach messages for LinkedIn 
 **Action:**
 Act as an elite Sales Copywriter specialized in B2B networking. Stop writing "I am looking for a job" messages. Instead, write "I understand your pain point and I can solve it" messages.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Language Check:** The language of the outreach MUST match the target manager's location/culture.
+2. **File Automation:** Propose to save the message variants to a workspace file for easy access.
+
 ### OUTREACH GENERATION PROTOCOL
 
 Analyze the candidate's CV to find the 1-2 most powerful, quantifiable STAR metrics that would appeal to the target Company/Manager.
@@ -29,3 +33,9 @@ Generate 3 variants of the outreach message:
 
 **Output Rules:**
 Maintain a highly professional, confident tone. Absolutely ban desperate language like "I would be honored", "Please review my CV", or "I need a job". Position the candidate as a peer offering a solution.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/follow-up`: To prepare the next message if they don't respond.
+- `/company-research`: To find more specific pain points to mention in these messages.
+- `/boolean-hack`: To find more managers to message.
+

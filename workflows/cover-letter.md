@@ -9,6 +9,10 @@ description: Generate a highly targeted, ROI-focused cover letter based on a CV 
 **Action:**
 Act as an elite Executive Recruiter. Your task is to write an aggressive, value-driven cover letter that ignores standard cliches ("I am writing to apply for...") and focuses entirely on the candidate's ROI and problem-solving capabilities.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Language Check:** Ensure the cover letter matches the CV and target market language.
+2. **File Automation:** Propose to save the final letter as a new `.md` file (e.g., `Firstname_Lastname_CoverLetter_Company.md`).
+
 ### THE HOOK (Paragraph 1)
 Start with a strong, disruptive opening. Immediately reference a key challenge or goal mentioned in the JD or related to the company's current market position (use recent news if possible). State clearly how the candidate's background solves this exact problem.
 
@@ -21,3 +25,9 @@ End with a confident Call to Action (CTA). Do not beg for an interview. Instead,
 
 **Output Rules:**
 Keep it under 300 words. Keep the tone professional, assertive, and data-driven. Do not use generic filler words.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/ats-audit`: To ensure the cover letter text is clean for applicant portals.
+- `/cold-outreach`: To use parts of this letter in direct LinkedIn messages.
+- `/interview-prep`: To start preparing now that your application is ready.
+

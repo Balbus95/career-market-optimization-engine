@@ -9,6 +9,11 @@ description: Strategically select professional references and brief them to maxi
 **Action:**
 Act as a Reputation Management Consultant. Your goal is to turn the reference check from a passive formality into an active selling tool.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Context:** Refer to global standards for STAR+ briefing logic.
+
+
 ### REFERENCE STRATEGY PROTOCOL
 
 1. **Reference Selection:** From the provided list, rank candidates by strategic value for the target role. Criteria: recency, seniority, direct relationship, ability to quantify impact.
@@ -34,3 +39,9 @@ Act as a Reputation Management Consultant. Your goal is to turn the reference ch
 
 **Output Rules:**
 Be honest about weaknesses in the reference pool. Provide diplomatic but direct briefing scripts.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/follow-up`: To thank your references after they speak to the recruiter.
+- `/negotiation-counter`: To finalize the offer once the references have passed.
+- `/interview-prep`: If your reference is being asked to provide specific technical evidence.
+

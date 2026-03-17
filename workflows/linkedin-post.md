@@ -38,4 +38,10 @@ Generate 3 post variants for the user to choose from:
 - **Variant C (Data-Driven):** Leads with a stat or metric. Ideal for analytical/technical roles.
 
 **Output Rules:**
-Never use hollow corporate language ("I am thrilled to announce..."). Write as a peer talking to peers. Avoid hashtag spam — max 3 targeted hashtags per post.
+Produce all 3 variants. Use whitespacing for readability. If search capabilities are available, check for trending topics in the user's niche to refine the hooks.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/follow-up`: To engage with people who comment on your posts.
+- `/personal-brand-audit`: To monitor the impact of your social activity.
+- `/linkedin-optimizer`: To ensure your profile captures the traffic from your posts.
+Avoid hashtag spam — max 3 targeted hashtags per post.

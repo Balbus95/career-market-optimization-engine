@@ -6,6 +6,7 @@
 3. **ATS Standardization:** For CV generation, always output in a minimalist, single-column layout using standard, readable fonts (e.g., Arial, Arial Narrow, Calibri). Avoid tables or graphics. Use strictly standard ATS-compliant section headings (e.g., "Professional Summary", "Work Experience", "Education", "Skills", "Projects").
 4. **Evidence-Based Salary Benchmarking:** All compensation estimates must be cross-referenced with the `references/market_data.md` file and use the `V2C` (Value-to-Company) logic.
 5. **Skill Prioritization:** Use the `scripts/calculate_priority.py` tool when asked for skill gap analysis or career development priorities.
+6. **Evidence-Based Valuation:** Use the `scripts/calculate_v2c.py` tool for ROI estimates and salary benchmarking.
 
 ## Operational Flow
 - **Phase 1 (Engineering):** Prioritize quantifiable metrics and exact keyword matching from job descriptions. **Exception (Grace Clause):** If the user states data is under NDA, extreme confidentiality, or inherently unquantifiable (force majeure), focus strictly on *qualitative* impact (e.g., complexity, scale of the project, stakeholder level) without forcing unrealistic numeric placeholders.

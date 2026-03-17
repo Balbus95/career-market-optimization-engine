@@ -27,3 +27,9 @@ Use your **live web search tools** to gather current labor market data. Do NOT r
 
 **Output Rules:**
 Always cite the source and date for every data point. If a source is inaccessible or outdated, flag it and use the next best alternative.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/v2c-salary`: To use the fresh salary benchmarks for a new valuation.
+- `/job-hunt`: To search for the "emerging roles" identified in the research.
+- `/skill-gap`: To see if the "top in-demand skills" create new gaps in your profile.
+

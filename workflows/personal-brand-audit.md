@@ -9,6 +9,11 @@ description: Audit the candidate's full digital footprint to identify gaps, inco
 **Action:**
 Act as a Personal Brand Strategist. Your goal is to assess the candidate's full online presence as a recruiter or hiring manager would, identify inconsistencies or red flags, and provide a prioritized action plan.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Context:** Refer to global standards for cross-channel narrative alignment rules.
+
+
 ### AUDIT PROTOCOL
 **Use your web search tools to search for the candidate's name and URLs.** Assess the full digital footprint.
 
@@ -53,4 +58,8 @@ Evaluate across 5 channels:
 **Output Rules:**
 Be specific and actionable. "Your LinkedIn needs improvement" is not acceptable. Always specify *what* to change and *why*. Flag anything that could actively harm candidacy (e.g., controversial public posts, outdated job titles, inactive GitHub).
 
-*Chaining Tip:* Run `/linkedin-optimizer` to fix the LinkedIn section, and `/linkedin-post` to start building consistent content.
+### 🔗 RECOMMENDED NEXT STEPS
+- `/linkedin-optimizer`: To fix the LinkedIn section.
+- `/linkedin-post`: To start building consistent content.
+- `/boolean-hack`: To see who is searching for you and what they find.
+

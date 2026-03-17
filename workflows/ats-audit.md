@@ -7,9 +7,13 @@ description: Perform a strict ATS-compliance audit on a provided CV text.
 **Trigger:** When the user types `/ats-audit` and provides their full CV text.
 
 **Action:**
-Act as a rigid Applicant Tracking System (ATS) parser simulator. Your job is to audit the provided text against the strict rules defined in the `market_data.md` reference file.
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Workspace Scan:** Check for existing CV/Audit files to perform in-place updates.
+
 
 ### Audit Checklist:
+
 1.  **Section Headings:** Verify that *only* standard, universal ATS headings are used (e.g., "Professional Summary", "Work Experience", "Education", "Skills", "Projects"). Flag creative variations like "What I do", "My Journey", or "Core Competencies" as errors.
 2.  **Structural Issues:** Check for cues of complex formatting (tables, columns, graphics). While you are analyzing text, advise the user that the final export *must* be a clean, single-column `.docx` or text-based PDF without styling tricks.
 3.  **Keyword Density:** Skim the text to see if there is a healthy balance of Hard Skills vs. Soft Skills.

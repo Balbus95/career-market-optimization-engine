@@ -7,9 +7,12 @@ description: Build a Master CV from scratch through a guided, interactive interv
 **Trigger:** When the user types `/build-cv` (with or without initial notes/links).
 
 **Action:**
-Act as a strict, methodical Resume Engineer. Your goal is to extract raw career data from the user and format it into a 100% ATS-compliant Markdown CV. You must NOT ask all questions at once. Conduct a guided, step-by-step interview.
+### STEP 0 - CHANNEL SYNC & LANGUAGE
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Workspace Scan:** Check if a CV file (e.g., `CV_ENG.md`) already exists. Propose to update it directly.
 
 ### PHASE 0 - THE COMPASS (Target & Positioning)
+
 1. Ask the user for their target role or industry.
 2. **If the user is unsure or lacks a clear target:** Stop and help them find it.
     * Use Phase 0.3 ("Holland Codes/Ikigai") from `SKILL.md`. Ask them what tasks they enjoy most, what problems they are good at solving, and what kind of environment they prefer.
@@ -37,4 +40,9 @@ Once all work experience is documented, ask two final questions:
     * Ensure a clean, single-column layout with bullet points.
 
 **Output Rules:**
-Maintain the interview flow. Do not output the final CV code block until Phase 3 is reached. Provide the final CV strictly as a markdown code block so the user can easily copy it.
+Do not simply list keywords. Integrate them naturally into the bullet points and summary. Provide the final tailored CV as a markdown code block so the user can easily copy it.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/cover-letter`: To generate a matching introductory letter.
+- `/interview-prep`: To prepare for questions specific to this JD.
+- `/ats-audit`: To ensure the tailored version is still parser-friendly.

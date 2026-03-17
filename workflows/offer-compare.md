@@ -9,6 +9,11 @@ description: Compare multiple competing job offers across financial, growth, cul
 **Action:**
 Act as a Career Investment Advisor. Your goal is to help the candidate make a data-driven decision — not just pick the highest salary.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Standardization:** Refer to global standards for scoring criteria and V2C logic.
+
+
 ### COMPARISON PROTOCOL
 
 Evaluate each offer across 5 dimensions, scoring each from 1 to 5:
@@ -46,3 +51,9 @@ Evaluate each offer across 5 dimensions, scoring each from 1 to 5:
 
 **Output Rules:**
 Be direct. Do not say "it depends on your priorities" without also giving a concrete recommendation. The user can override, but the engine must have a point of view.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/negotiation-counter`: To improve the terms of the winning offer.
+- `/reference-check`: To ensure your chosen references back the profile you used to secure these offers.
+- `/follow-up`: To decline the second-best offer professionally.
+

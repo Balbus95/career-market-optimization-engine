@@ -89,7 +89,7 @@ Just write "Hi", "Help", or **`/init`** to activate the engine. It will automati
 *   **`/interview-prep`**:
     *   *What it does:* Simulates a demanding interview. Based on your CV and the JD, it predicts the 5 most difficult/probable questions and helps you map your STAR achievements to the answers.
 *   **`/v2c-salary`**:
-    *   *What it does:* The Value-to-Company calculator. It estimates a realistic salary range based on market data and the ROI of your achievements, providing a negotiation script.
+    *   *What it does:* The Value-to-Company calculator. It uses the **`scripts/calculate_v2c.py`** tool to estimate a realistic salary range based on market data and the ROI of your achievements, providing a negotiation script and evidence-backed anchors.
 *   **`/career-pivot`**:
     *   *What it does:* Builds a full transition roadmap for career changers: maps transferable skills, identifies gaps, rewrites your narrative for the new industry, and generates a 90-day action plan.
 
@@ -115,7 +115,10 @@ These tools handle the crucial peripheral steps of career advancement:
 *   **Automated Commands (`workflows/`):** Slash commands (`/linkedin-optimizer`, `/ats-audit`, etc.) to execute specific tasks instantly.
 *   **System Context (`GEMINI.md`):** Core mandates and tone guidelines for AI processing.
 *   **Market Data (`references/market_data.md`):** Evidence-based salary and skill demand benchmarks.
-*   **Calculators (`scripts/`):** Python tools (e.g., `calculate_priority.py`) for objective skill gap analysis.
+*   **Calculators (`scripts/`):** Python tools for objective analysis:
+    *   `calculate_priority.py`: For skill gap prioritization.
+    *   `calculate_v2c.py`: For ROI-based salary benchmarking.
+*   **Global Standards (`workflows/global-standards.md`):** The centralized source of truth for all workflows (STAR+, V2C, ATS, and Channel Sync).
 
 ---
 

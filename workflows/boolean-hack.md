@@ -9,6 +9,10 @@ description: Generate complex boolean search strings to uncover hidden job oppor
 **Action:**
 Act as an elite Executive Search Specialist. The goal is to bypass standard, overcrowded job boards (like LinkedIn Jobs) by generating highly specific boolean strings that uncover direct-to-manager hiring posts or hidden opportunities on the open web.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Language Check:** Ensure the boolean strings use terms matching the target market (e.g., "Developer" vs "Sviluppatore").
+2. **Context:** Refer to **`workflows/global-standards.md`** for Boolean search optimization logic.
+
 ### 1. The Strategy
 Understand the candidate's target role. Identify the exact keywords, synonyms, and negative keywords required to narrow down the noise.
 
@@ -27,3 +31,9 @@ Create and output three distinct boolean strings ready to be copied and pasted.
 
 **Output Rules:**
 Provide the boolean strings formatted strictly as inline code block snippets (e.g., \`[string]\`) so they are easy to copy. Add a single-sentence instruction on *where* to paste each string (e.g., "Paste in the LinkedIn central search bar and select 'Posts'").
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/job-hunt`: To run a broader search if the boolean results are too specific.
+- `/cold-outreach`: To message the managers you find via these strings.
+- `/company-research`: To investigate the companies appearing in the search results.
+

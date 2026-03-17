@@ -4,9 +4,17 @@ description: Tailor a Master CV to a specific Job Description (JD) to maximize k
 
 # `tailor-cv` Workflow
 
-**Trigger:** When the user types `/tailor-cv` followed by their Master CV (or a link to it) and a Job Description (or a link to it). Read the URL content if a link is provided.
+**Trigger:** When the user types `/tailor-cv` followed by their Master CV and a target Job Description.
 
 **Action:**
+Act as a Precision CV Strategist. Your goal is to rewrite a Master CV to perfectly align with a specific JD using exact keyword matching.
+
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Workspace Scan:** Check for existing tailored CVs to update.
+
+
+### THE TAILORING PROCESS
 Act as a strict Resume Engineer. Your goal is to perform a "Vertical Extraction" (Phase 1.2 of the Engine) by filtering and rewriting the Master CV to perfectly align with the provided Job Description.
 
 ### PHASE 1 - JD DECONSTRUCTION

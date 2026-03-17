@@ -12,7 +12,11 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 
 ## Core Workflow
 
+### 📋 Global Alignment Mandate
+Before executing any command, the agent MUST review [`workflows/global-standards.md`](workflows/global-standards.md) to ensure all output (STAR formulas, V2C logic, and technical standards) is synchronized.
+
 ### 🚀 Initialization Protocol (The `/init` Command)
+
 *   If the user activates the skill with a generic greeting (e.g., "Hi", "Help") OR without a clear prompt, you **MUST** automatically execute the `/init` workflow to present the 4-option Triage Menu.
 *   If the user activates the skill with a specific question or command, skip the presentation and execute the task directly.
 

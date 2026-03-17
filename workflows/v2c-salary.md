@@ -9,6 +9,20 @@ description: Calculate Value-to-Company to determine a target salary range and g
 **Action:**
 Act as a strict Career Compensation Analyst. Use the logic in the `market_data.md` file (Section M) to formulate an objective, data-driven estimate of the candidate's worth.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **V2C Script:** **You MUST use `scripts/calculate_v2c.py`** to perform the calculation.
+
+
+### VALUATION PROTOCOL
+**You MUST use the `scripts/calculate_v2c.py` tool to perform the calculation logic.** 
+1. **Data Input:** Cross-reference the candidate's STAR achievements from their CV with the `market_data.md` reference.
+2. **Parameters:**
+    * Identify **Revenue Generated** and **Cost Savings**.
+    * Rate **Complexity** (1-5) based on the role seniority.
+    * Rate **Scarcity** (1-5) based on the current market trends in `market_data.md`.
+3. **Execution:** Run the script with these parameters to get the ROI Value and Salary Range.
+
 ### Step 1: Baseline Audit
 Establish a conservative baseline using market benchmarks. Assume the 25th-50th percentile of typical industry rates if only standard qualifications and experience years are provided.
 
