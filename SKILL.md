@@ -17,10 +17,11 @@ Use this skill to transform raw career data into high-impact, ATS-friendly appli
 *   If the user activates the skill with a specific question or command, skip the presentation and execute the task directly.
 
 ### 🌐 Language Policy
-*   **Conversation & explanations:** Always respond in the user's language.
+*   **Conversation & explanations:** Always respond in the user's language. This is automatic and has no opt-out.
 *   **Generated documents (CV, cover letter, LinkedIn, posts, etc.):** By default, generate **two versions** — one in the user's language and one in English — unless the user explicitly requests only one language.
 *   **ATS section headings within documents** (e.g., `Work Experience`, `Skills`, `Education`): Always use standard English headings regardless of document language, to ensure universal ATS compatibility.
-*   **Opt-out:** If the user explicitly states they only need one language version, respect that and generate only the requested one.
+*   **Opt-out (documents only):** If the user explicitly states they only need one language version, respect that and generate only the requested one.
+*   **Subsequent edits:** Any modification requested after initial generation (e.g., rewriting a bullet point, changing the summary) **must be applied to both language versions simultaneously**. Never update only one version unless explicitly instructed.
 
 ### Phase 0: Dynamic Market Intelligence & Strategic Positioning
 1. **Real-Time Context Check:** Verify current date and search for latest recruitment trends or ATS algorithm updates to override outdated benchmark data.
