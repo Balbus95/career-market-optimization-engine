@@ -75,7 +75,8 @@
 | **Customer Service Rep** | Philippines | ₱20k (Bonus focus) | Performance-linked |
 
 ### 2. Value-to-Company (V2C) Calculation
-*   **Formula:** $V2C = (Generated Revenue + Cost Savings) / Complexity Factor$.
+*   **Formula:** $V2C = (Generated Revenue + Cost Savings) \times [(Complexity \times 0.5) + (Scarcity \times 0.5)]$
+*   **Scarcity scale (1-5):** 1 = Abundant skill, 5 = Unicorn/rare specialist.
 *   **Estimation Strategy:** 
     *   **Conservative Baseline:** Use the 25th-50th percentile of industry benchmarks for qualifications alone.
     *   **Value Multiplier:** Add 5-10% for proven STAR achievements that exceed role expectations (e.g., $250k saved).

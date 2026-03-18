@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV - Career Market Engine</title>
+    <style>
+        /* 
+           CAREER MARKET OPTIMIZATION ENGINE: DYNAMIC SHELL
+           Preserves user-defined section order and names from Markdown.
+        */
+        
+        :root {
+            --body-text: #1a1a1a;
+            --heading-text: #000000;
+            --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        @media print {
+            body { 
+                width: 210mm;
+                /* No fixed height to allow multi-page CVs */
+                margin: 0; 
+                padding: 1.5cm;
+                font-size: 11pt;
+            }
+            .no-print { display: none; }
+        }
+
+        body {
+            font-family: var(--font-main);
+            color: var(--body-text);
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+        }
+
+        /* Markdown Rendering Styles */
+        h1 { font-size: 24pt; border-bottom: 2px solid #000; padding-bottom: 5px; margin-top: 0; }
+        h2 { font-size: 16pt; border-bottom: 1px solid #ccc; margin-top: 25px; text-transform: uppercase; }
+        h3 { font-size: 13pt; margin-bottom: 5px; color: #333; }
+        p { margin-bottom: 10px; }
+        ul { padding-left: 20px; list-style-type: square; }
+        li { margin-bottom: 5px; }
+        
+        /* Flex containers for dates/location (Skill must wrap them in tags) */
+        .cv-meta { display: flex; justify-content: space-between; font-style: italic; font-size: 10pt; color: #555; }
+
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        
+        @media print {
+            .print-btn { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.print()" class="print-btn">Print to PDF</button>
+    
+    <!-- 
+       DYNAMIC INJECTION POINT:
+       The Skill will convert the exact Markdown content to HTML 
+       and inject it here, preserving section order and naming.
+    -->
+    <div id="cv-content">
+        {{CV_CONTENT_HTML}}
+    </div>
+
+</body>
+</html>

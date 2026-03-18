@@ -1,2 +1,4 @@
 /sources
 /.gemini
+/scripts/__pycache__
+/tests/__pycache__

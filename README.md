@@ -119,6 +119,7 @@ These tools handle the crucial peripheral steps of career advancement:
     *   `calculate_priority.py`: For skill gap prioritization.
     *   `calculate_v2c.py`: For ROI-based salary benchmarking.
 *   **Global Standards (`workflows/global-standards.md`):** The centralized source of truth for all workflows (STAR+, V2C, ATS, and Channel Sync).
+*   **Output Template (`assets/cv_template.html`):** ATS-safe HTML shell for zero-dependency PDF generation. Open in any browser and use `Ctrl+P → Save as PDF`.
 
 ---
 

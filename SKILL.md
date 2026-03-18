@@ -1,7 +1,7 @@
 ---
 name: career-market-optimization-engine
 description: Analyze professional profiles and job descriptions to engineer ATS-optimized resumes, LinkedIn profiles, and career strategies using STAR metrics and boolean search logic.
-version: 1.1.0
+version: 1.2.0
 author: Balbus95
 website: https://github.com/Balbus95/career-market-optimization-engine
 ---
@@ -70,11 +70,17 @@ Two independent language channels must be maintained at all times:
     *   **Freelance:** Pain point identification -> Case study -> ROI-based CTA.
 
 ### Phase 3: Technical Visibility & ATS Standardization
-1. **Standardized Technical Output:** Always recommend exporting in **.docx (Microsoft Word)** or **text-based PDF**.
+1. **Master Document & Output Tiers:**
+    *   **Source of Truth:** Always maintain and edit the CV in **Markdown**. This ensures the AI can inject keywords and re-engineer content without corrupting binary formats.
+    *   **Tier 1: Standard Output (Zero-Dependency):** Use `assets/cv_template.html` as a "Dynamic Shell". The skill converts the Markdown into an HTML blob, preserving **exact section order**. Section headings must still comply with ATS standards (see point 2 below), unless the user has explicitly requested a custom structure. The user prints to PDF from any browser.
+        *   **Implementation:** Convert Markdown headings/bullets → semantic HTML (h1, h2, ul, li) and inject into `{{CV_CONTENT_HTML}}` placeholder for browser-based PDF printing.
+    *   **Tier 2: Advanced Technical Output:** 
+        *   **Word (.docx):** Copy-paste Markdown directly into a word processor.
+        *   **Pro Tooling:** Users with **Python, Pandoc, or LaTeX** installed can bypass the HTML shell and use their local scripts for precise formatting if preferred.
 2. **ATS Compatibility & Aesthetics:**
-    *   **Warning:** Avoid multi-column layouts, tables, graphics, or complex LaTeX exports (parser failure risk).
-    *   **Legibility:** Use modern, ATS-safe fonts: **Roboto, Lora, Calibri, or Verdana** (10-12pt body, 14-16pt headings).
-    *   **Section Headings:** Strictly use universal, ATS-recognized headings (e.g., "Professional Summary", "Work Experience", "Education", "Skills", "Projects"). Avoid creative variations to ensure proper parser semantic mapping.
+    *   **Warning:** Regardless of output mode (HTML or Pro), avoid multi-column layouts, tables, or complex LaTeX templates. Ensure the PDF text remains **selectable and indexable** for ATS parsers.
+    *   **Legibility:** Use modern, ATS-safe fonts: **Roboto, Arial, Calibri, or Verdana** (10-12pt body, 14-16pt headings). [Synced with global-standards.md]
+    *   **Section Headings:** Default to universal, ATS-recognized headings (e.g., "Professional Summary", "Work Experience", "Education", "Skills", "Projects"). User-defined heading names are permitted **only if the user explicitly requests them**; in that case, flag the ATS risk in the conversation.
 3. **Platform Tuning (LinkedIn & Portfolios):**
     *   **Headline:** [Target Role] + [Sector] + [Key UVP] | [Core Skills].
     *   **Hook:** Optimize the first 275 characters for mobile/desktop engagement.

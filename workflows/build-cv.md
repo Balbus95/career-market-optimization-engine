@@ -36,11 +36,11 @@ Once all work experience is documented, ask two final questions:
 ### PHASE 3 - ASSEMBLY & SUMMARY
 1. Draft a powerful 3-line "Professional Summary" based on the extracted data, using an engaging hook (referencing `linkedin-optimizer` logic).
 2. Assemble the final Master CV using strict ATS-compliant Markdown.
-    * Use exact headings: `# Professional Summary`, `# Work Experience`, `# Education`, `# Skills`.
+    * **Heading Hierarchy:** The candidate's full name is the only `#` (H1). All section headings use `##` (H2): `## Professional Summary`, `## Work Experience`, `## Education`, `## Skills`.
     * Ensure a clean, single-column layout with bullet points.
 
 **Output Rules:**
-Do not simply list keywords. Integrate them naturally into the bullet points and summary. Provide the final tailored CV as a markdown code block so the user can easily copy it.
+Do not simply list keywords. Integrate them naturally into the bullet points and summary. **Save the final CV directly to the workspace** following the File System naming convention in `SKILL.md` (e.g., `Firstname_Lastname_CV_English.md`). Confirm the file path to the user after saving.
 
 ### 🔗 RECOMMENDED NEXT STEPS
 - `/cover-letter`: To generate a matching introductory letter.
