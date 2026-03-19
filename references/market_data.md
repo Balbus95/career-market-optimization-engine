@@ -10,7 +10,7 @@
     *   **Safe Fonts:** Arial, Calibri, Verdana, Georgia, Roboto, Lora (10-12pt body, 14-16pt headings).
     *   **Margins:** 0.5" to 1" on all sides.
     *   **Mobile Layout:** Optimized for vertical scrolling on recruiter mobile apps.
-*   **Format Priority:** 1. `.docx` (Gold Standard) | 2. `PDF` (Standard Text) | 3. `Markdown` (For AI agents).
+*   **Format Priority (Submission):** 1. `.docx` (Gold Standard for recruiter submission) | 2. `PDF` (Standard Text) | 3. `Markdown` (Source of Truth for AI editing — always maintained internally by the engine, never submitted directly).
 
 ## B. Master CV Infrastructure (The "Infinite Repository")
 *   **Mandate:** Zero length limit. Comprehensive data points for every role.
@@ -65,6 +65,26 @@
 ## I. Remote & Async Mastery (2025 Standard)
 *   **Core Skills:** Asynchronous Communication (Notion/Slack), Autonomy, Digital Literacy (Miro/Asana).
 * **Visibility:** Add `(Remote)` to job titles to confirm experience in distributed environments.
+
+## J. Emerging Roles & Future Demand (2025-2030)
+*   **AI/ML Adjacent Roles:** Prompt Engineer, AI Trainer, MLOps Engineer — high scarcity (Scarcity 4-5), premium compensation.
+*   **Green Economy:** ESG Analyst, Sustainability Manager, Carbon Accountant — strong demand especially in EU regulated markets.
+*   **Data & Analytics:** Data Engineer, Analytics Engineer, BI Developer — consistently top-5 in-demand across all sectors.
+*   **Cybersecurity:** Cloud Security Architect, SOC Analyst, Penetration Tester — persistent global shortage.
+
+## K. Certification & Credential Impact on Salary
+*   **High ROI Certifications (apply Scarcity Premium):**
+    *   AWS/Azure/GCP Professional: +15-25% vs. non-certified peers.
+    *   PMP / Prince2: +10-15% for project management roles.
+    *   CFA / CAIA: +20-30% for finance/investment roles.
+    *   CISSP / CEH: +20-35% for cybersecurity roles.
+*   **Signal to ATS:** Include the full certification name AND acronym (e.g., "Project Management Professional (PMP)").
+
+## L. Application Timing & Market Seasonality
+*   **Peak Hiring Windows:** January–March (post-budget approval) and September–October (Q4 hiring push).
+*   **Slowest Periods:** July–August (summer freeze) and late December.
+*   **Application Volume:** Tuesday–Thursday mornings yield the highest recruiter response rates.
+*   **Follow-up Window:** 5-7 business days after submission is the optimal follow-up timing.
 
 ## M. Salary Benchmarks & Compensation Logic (2025/2026)
 ### 1. Market Benchmarks (Service-Oriented Examples)

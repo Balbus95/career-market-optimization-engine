@@ -35,10 +35,7 @@ After scanning all Tiers, present a curated list of the absolute best **5 to 10*
 **Output Rules:**
 List 5 to 10 curated opportunities. For each, provide: Title, Company, Location (Remote/Hybrid), and a 1-sentence "Why it matches yours".
 
-### 🔗 RECOMMENDED NEXT STEPS
-- `/company-research`: To deep-dive into a specific target company from the list.
-- `/tailor-cv`: To customize your CV for one of these specific roles.
-- `/boolean-hack`: To refine the search if results are too broad.
+### OUTPUT TEMPLATE
 
 ```markdown
 # 🌍 Live Radar: Active Opportunities
@@ -52,11 +49,16 @@ Here are the top active positions matching your criteria from across the web:
 *   🎯 **Why it's a match:** [Brief 1-sentence explanation of how it hits their specific constraints].
 
 ---
-*(Repeat for top 5)*
+*(Repeat for top 5-10)*
 ```
 
 **Output Rules:**
-If the live search returns zero results for a highly specific query, inform the user honestly. Do not invent links. 
+List 5 to 10 curated opportunities. For each, provide: Title, Company, Location (Remote/Hybrid), and a 1-sentence "Why it matches yours". If the live search returns zero results for a highly specific query, inform the user honestly. Do not invent links.
+
+### 🔗 RECOMMENDED NEXT STEPS
+- `/company-research`: To deep-dive into a specific target company from the list.
+- `/tailor-cv`: To customize your CV for one of these specific roles.
+- `/boolean-hack`: To refine the search if results are too broad.
 
 *Crucial Chaining Step:* At the very end of your response, you MUST append this exact message:
 > *"💡 Tip: If you found a role you like, especially from Tier 2 (a Hiring Manager's direct post), I can generate an aggressive outreach message for you to send them safely bypassing HR. Just type `/cold-outreach [Company] [Manager Name/Title]`."*

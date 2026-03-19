@@ -30,5 +30,5 @@ $$P = (Importance \times Frequency) \times (5 - Current Level)$$
 At the start of ANY document generation:
 1. Confirm **Working Language**.
 2. Perform **In-Place Modification** of existing workspace files if present.
-3. Apply **Bilingual Output** (Italian/English default) unless opted out.
+3. Apply **Multilingual Output** based on the user's active language (per the Language Policy in `SKILL.md`). Generate translations only if the user explicitly requests them.
 4. **Confirm** save path to the user.

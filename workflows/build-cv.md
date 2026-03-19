@@ -43,6 +43,6 @@ Once all work experience is documented, ask two final questions:
 Do not simply list keywords. Integrate them naturally into the bullet points and summary. **Save the final CV directly to the workspace** following the File System naming convention in `SKILL.md` (e.g., `Firstname_Lastname_CV_English.md`). Confirm the file path to the user after saving.
 
 ### 🔗 RECOMMENDED NEXT STEPS
-- `/cover-letter`: To generate a matching introductory letter.
-- `/interview-prep`: To prepare for questions specific to this JD.
-- `/ats-audit`: To ensure the tailored version is still parser-friendly.
+- `/tailor-cv`: To extract a targeted vertical version aligned to a specific Job Description.
+- `/cover-letter`: To generate a matching introductory letter for a specific role.
+- `/ats-audit`: To verify the Master CV is fully parser-friendly before extraction.

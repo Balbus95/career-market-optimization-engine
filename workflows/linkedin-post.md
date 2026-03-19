@@ -9,6 +9,10 @@ description: Generate high-engagement LinkedIn posts to build passive visibility
 **Action:**
 Act as a LinkedIn Growth Strategist. Your goal is to transform raw input into a post optimized for maximum reach, engagement, and recruiter magnetism.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
+2. **Workspace Scan:** Check for existing LinkedIn post drafts to update.
+
 ### POST ENGINEERING PROTOCOL
 
 #### Step 0 — Voice Calibration (Optional but Recommended)
@@ -38,10 +42,9 @@ Generate 3 post variants for the user to choose from:
 - **Variant C (Data-Driven):** Leads with a stat or metric. Ideal for analytical/technical roles.
 
 **Output Rules:**
-Produce all 3 variants. Use whitespacing for readability. If search capabilities are available, check for trending topics in the user's niche to refine the hooks.
+Produce all 3 variants. Use whitespacing for readability. If search capabilities are available, check for trending topics in the user's niche to refine the hooks. Avoid hashtag spam — max 3 targeted hashtags per post.
 
 ### 🔗 RECOMMENDED NEXT STEPS
 - `/follow-up`: To engage with people who comment on your posts.
 - `/personal-brand-audit`: To monitor the impact of your social activity.
 - `/linkedin-optimizer`: To ensure your profile captures the traffic from your posts.
-Avoid hashtag spam — max 3 targeted hashtags per post.

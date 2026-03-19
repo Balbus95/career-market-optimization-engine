@@ -17,7 +17,7 @@ Before executing any command, the agent MUST review [`workflows/global-standards
 
 ### 🚀 Initialization Protocol (The `/init` Command)
 
-*   If the user activates the skill with a generic greeting (e.g., "Hi", "Help") OR without a clear prompt, you **MUST** automatically execute the `/init` workflow to present the 4-option Triage Menu.
+*   If the user activates the skill with a generic greeting (e.g., "Hi", "Help") OR without a clear prompt, you **MUST** automatically execute the `/init` workflow to present the 6-option Triage Menu.
 *   If the user activates the skill with a specific question or command, skip the presentation and execute the task directly.
 
 ### 🌐 Language Policy
@@ -107,33 +107,33 @@ Two independent language channels must be maintained at all times:
 To execute automated workflows, prompt the agent using the following slash commands:
 
 ### 🌟 Primary Workflows (Core Engine)
-*   `/init`: Handles initial skill activation without specific commands by presenting a 4-option Triage Menu.
-*   `/build-cv`: Interview the candidate from scratch to extract career data, define their target role (using Holland Codes if unsure), and generate a new Master CV.
-*   `/tailor-cv`: Filters and rewrites a Master CV to perfectly align with a specific Job Description, injecting exact match keywords.
-*   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills.
-*   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics.
-*   `/ats-audit`: Performs a strict compliance check on a CV text against ATS parsing rules (headings, fonts, structure) and provides a pass/fail score.
-*   `/final-audit`: Performs a 360-degree final evaluation across 4 pillars (ATS, Target Alignment, Action & Impact, Professional Tone) generating a final score and dashboard.
-*   `/v2c-salary`: Calculates the candidate's Value-to-Company (ROI) based on achievements and provides a data-driven salary range and negotiation script.
-*   `/boolean-hack`: Generates 3 complex Boolean search strings (for LinkedIn and Google) to uncover hidden job opportunities.
-*   `/ruthless-mentor`: Adopts a brutally honest HR persona to tear down weak profiles and perform a surgical rewrite.
-*   `/cover-letter`: Generates an aggressive, ROI-driven cover letter focused entirely on problem-solving.
-*   `/interview-prep`: Simulates a demanding interview by generating the 5 most probable questions and providing STAR answer strategies.
-*   `/skill-gap`: Performs a ruthless gap analysis between a CV and JD, identifying critical weaknesses and providing a prioritized mitigation strategy.
-*   `/job-hunt`: Performs a live internet search to find active job postings perfectly matching the user's role, location (Remote/Hybrid), and constraints.
-*   `/career-pivot`: Builds a full transition roadmap for candidates switching industries, including transferable skills mapping, gap analysis, narrative reframing, and a 90-day action plan.
+*   `/init`: Handles initial skill activation without specific commands by presenting a 6-option Triage Menu. → [`workflows/init.md`](workflows/init.md)
+*   `/build-cv`: Interview the candidate from scratch to extract career data, define their target role (using Holland Codes if unsure), and generate a new Master CV. → [`workflows/build-cv.md`](workflows/build-cv.md)
+*   `/tailor-cv`: Filters and rewrites a Master CV to perfectly align with a specific Job Description, injecting exact match keywords. → [`workflows/tailor-cv.md`](workflows/tailor-cv.md)
+*   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills. → [`workflows/linkedin-optimizer.md`](workflows/linkedin-optimizer.md)
+*   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics. → [`workflows/rewrite-impact.md`](workflows/rewrite-impact.md)
+*   `/ats-audit`: Performs a strict compliance check on a CV text against ATS parsing rules (headings, fonts, structure) and provides a pass/fail score. → [`workflows/ats-audit.md`](workflows/ats-audit.md)
+*   `/final-audit`: Performs a 360-degree final evaluation across 4 pillars (ATS, Target Alignment, Action & Impact, Professional Tone) generating a final score and dashboard. → [`workflows/final-audit.md`](workflows/final-audit.md)
+*   `/v2c-salary`: Calculates the candidate's Value-to-Company (ROI) based on achievements and provides a data-driven salary range and negotiation script. → [`workflows/v2c-salary.md`](workflows/v2c-salary.md)
+*   `/boolean-hack`: Generates 3 complex Boolean search strings (for LinkedIn and Google) to uncover hidden job opportunities. → [`workflows/boolean-hack.md`](workflows/boolean-hack.md)
+*   `/ruthless-mentor`: Adopts a brutally honest HR persona to tear down weak profiles and perform a surgical rewrite. → [`workflows/ruthless-mentor.md`](workflows/ruthless-mentor.md)
+*   `/cover-letter`: Generates an aggressive, ROI-driven cover letter focused entirely on problem-solving. → [`workflows/cover-letter.md`](workflows/cover-letter.md)
+*   `/interview-prep`: Simulates a demanding interview by generating the 5 most probable questions and providing STAR answer strategies. → [`workflows/interview-prep.md`](workflows/interview-prep.md)
+*   `/skill-gap`: Performs a ruthless gap analysis between a CV and JD, identifying critical weaknesses and providing a prioritized mitigation strategy. → [`workflows/skill-gap.md`](workflows/skill-gap.md)
+*   `/job-hunt`: Performs a live internet search to find active job postings perfectly matching the user's role, location (Remote/Hybrid), and constraints. → [`workflows/job-hunt.md`](workflows/job-hunt.md)
+*   `/career-pivot`: Builds a full transition roadmap for candidates switching industries, including transferable skills mapping, gap analysis, narrative reframing, and a 90-day action plan. → [`workflows/career-pivot.md`](workflows/career-pivot.md)
 
 ### 🔋 Secondary Workflows (Power Tools)
-*   `/cold-outreach`: Generates 3 variants of targeted, ROI-focused cold outreach messages for LinkedIn or Email to connect with Hiring Managers.
-*   `/promo-pitch`: Builds a data-driven internal business case (ROI-focused) to ask for a raise or promotion within the current company.
-*   `/follow-up`: Drafts strategic post-interview thank-you emails that reiterate the candidate's value and ability to solve specific pain points discussed.
-*   `/case-study`: Structures a complex professional project into a clear, business-focused Case Study (PAR method) for a portfolio or presentation.
-*   `/linkedin-post`: Generates 3 high-engagement LinkedIn post variants (Short, Story, Data-Driven) to build passive recruiter visibility.
-*   `/negotiation-counter`: Generates a data-backed counter-offer strategy when an initial salary offer is below expectations, including a full email script and alternative levers.
-*   `/reference-check`: Strategically selects professional references and generates briefing scripts to maximize offer conversion.
-*   `/company-research`: Performs live research on a target company before an interview, generating a full intelligence report with culture signals, pain points, and 5 tailored questions.
-*   `/offer-compare`: Compares 2+ competing job offers across 5 dimensions (compensation, growth, alignment, stability, work-life fit), scoring each and providing a concrete recommendation.
-*   `/personal-brand-audit`: Audits the candidate's full digital footprint (Google, LinkedIn, GitHub, portfolio, other platforms), flags inconsistencies, and provides a prioritized action plan for recruiter-facing visibility.
+*   `/cold-outreach`: Generates 3 variants of targeted, ROI-focused cold outreach messages for LinkedIn or Email to connect with Hiring Managers. → [`workflows/cold-outreach.md`](workflows/cold-outreach.md)
+*   `/promo-pitch`: Builds a data-driven internal business case (ROI-focused) to ask for a raise or promotion within the current company. → [`workflows/promo-pitch.md`](workflows/promo-pitch.md)
+*   `/follow-up`: Drafts strategic post-interview thank-you emails that reiterate the candidate's value and ability to solve specific pain points discussed. → [`workflows/follow-up.md`](workflows/follow-up.md)
+*   `/case-study`: Structures a complex professional project into a clear, business-focused Case Study (PAR method) for a portfolio or presentation. → [`workflows/case-study.md`](workflows/case-study.md)
+*   `/linkedin-post`: Generates 3 high-engagement LinkedIn post variants (Short, Story, Data-Driven) to build passive recruiter visibility. → [`workflows/linkedin-post.md`](workflows/linkedin-post.md)
+*   `/negotiation-counter`: Generates a data-backed counter-offer strategy when an initial salary offer is below expectations, including a full email script and alternative levers. → [`workflows/negotiation-counter.md`](workflows/negotiation-counter.md)
+*   `/reference-check`: Strategically selects professional references and generates briefing scripts to maximize offer conversion. → [`workflows/reference-check.md`](workflows/reference-check.md)
+*   `/company-research`: Performs live research on a target company before an interview, generating a full intelligence report with culture signals, pain points, and 5 tailored questions. → [`workflows/company-research.md`](workflows/company-research.md)
+*   `/offer-compare`: Compares 2+ competing job offers across 5 dimensions (compensation, growth, alignment, stability, work-life fit), scoring each and providing a concrete recommendation. → [`workflows/offer-compare.md`](workflows/offer-compare.md)
+*   `/personal-brand-audit`: Audits the candidate's full digital footprint (Google, LinkedIn, GitHub, portfolio, other platforms), flags inconsistencies, and provides a prioritized action plan for recruiter-facing visibility. → [`workflows/personal-brand-audit.md`](workflows/personal-brand-audit.md)
 
 ### `Update Market Data` / `/update-market-data`
 See dedicated workflow: [`workflows/update-market-data.md`](workflows/update-market-data.md)

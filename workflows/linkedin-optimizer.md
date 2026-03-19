@@ -6,19 +6,19 @@ description: Automatically generate optimized LinkedIn Headline, About section, 
 
 **Trigger:** When the user types `/linkedin-optimizer` (optionally followed by their target role and/or pasting their CV).
 
-**Action:** 
+**Action:**
 Act as an expert Recruiter and LinkedIn strategist. Analyze the user's provided CV and target role to generate the following three optimized profile sections:
-
-### 1. Headline (Max 220 characters)
-Generate 5 options for the LinkedIn Headline.
-*   **Formula:** `[Target Title] | [Key Accomplishment/ROI] | [3-4 Core Hard Skills]`
-*   **Constraint:** Must be under 220 characters. Optimized for desktop and mobile visibility.
 
 ### PHASE 0 - CHANNEL SYNC
 1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
 2. **Workspace Scan:** Check for existing LinkedIn files to update.
 
 ### OPTIMIZATION PROTOCOL
+
+### 1. Headline (Max 220 characters)
+Generate 5 options for the LinkedIn Headline.
+*   **Formula:** `[Target Title] | [Key Accomplishment/ROI] | [3-4 Core Hard Skills]`
+*   **Constraint:** Must be under 220 characters. Optimized for desktop and mobile visibility.
 
 ### 2. About Section (200-250 words)
 Write a new, highly engaging "About" section.

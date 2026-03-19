@@ -13,18 +13,20 @@
         :root {
             --body-text: #1a1a1a;
             --heading-text: #000000;
-            --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            --font-main: Arial, Calibri, Verdana, 'Segoe UI', sans-serif;
         }
 
         @media print {
-            body { 
+            body {
                 width: 210mm;
+                max-width: none;
                 /* No fixed height to allow multi-page CVs */
-                margin: 0; 
+                margin: 0;
                 padding: 1.5cm;
                 font-size: 11pt;
             }
             .no-print { display: none; }
+            .print-btn { display: none; }
         }
 
         body {
@@ -61,9 +63,6 @@
             z-index: 1000;
         }
         
-        @media print {
-            .print-btn { display: none; }
-        }
     </style>
 </head>
 <body>

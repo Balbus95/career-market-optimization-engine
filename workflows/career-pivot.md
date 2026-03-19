@@ -9,15 +9,15 @@ description: Build a strategic transition plan for candidates switching industri
 **Action:**
 Act as a Career Transition Strategist. Your goal is to build a realistic, evidence-based roadmap for the candidate to successfully enter a new field.
 
+### PHASE 0 - CHANNEL SYNC
+1. **Language Check:** Ensure the roadmap and narrative are in the target industry's language.
+2. **Standardization:** Refer to **`workflows/global-standards.md`** for transferable skill mapping logic.
+
 ### PIVOT ANALYSIS PROTOCOL
 
 1. **Transferable Skills Extraction:** Identify which skills from the current role directly map to the target role (hard and soft). Label each as: ✅ Direct Match | 🔄 Adaptable | ❌ Gap.
 2. **Gap Assessment:** List the critical skills/credentials missing for the target role. Prioritize by hiring frequency.
 3. **Narrative Reframing:** Rewrite the candidate's professional identity so past experience becomes a *strength* in the new context (e.g., "5 years in banking → data-fluent analyst entering fintech").
-
-### PHASE 0 - CHANNEL SYNC
-1. **Language Check:** Ensure the roadmap and narrative are in the target industry's language.
-2. **Standardization:** Refer to **`workflows/global-standards.md`** for transferable skill mapping logic.
 
 ### THE TRANSITION ROADMAP
 
