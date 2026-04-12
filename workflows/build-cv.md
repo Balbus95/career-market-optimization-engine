@@ -9,11 +9,14 @@ description: Build a Master CV from scratch through a guided, interactive interv
 **Action:**
 ### STEP 0 - CHANNEL SYNC & LANGUAGE
 1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
-2. **Workspace Scan:** Check if a CV file (e.g., `CV_ENG.md`) already exists. Propose to update it directly.
+2. **Dossier Check:** Check if `career_dossier.md` exists.
+   - **If YES:** Read it. Pre-populate target role, modality, status, hidden skills, and WIP projects. Skip any Phase 0 or Phase 2 questions already answered. Announce: *"📂 Dossier loaded — I'll skip questions you've already answered."*
+   - **If NO:** Proceed to Phase 0 normally.
+3. **Workspace Scan:** Check if a CV file (e.g., `CV_ENG.md`) already exists. Propose to update it directly.
 
 ### PHASE 0 - THE COMPASS (Target & Positioning)
 
-1. Ask the user for their target role or industry.
+1. Ask the user for their target role or industry (skip if already in dossier).
 2. **If the user is unsure or lacks a clear target:** Stop and help them find it.
     * Use Phase 0.3 ("Holland Codes/Ikigai") from `SKILL.md`. Ask them what tasks they enjoy most, what problems they are good at solving, and what kind of environment they prefer.
     * **ROI & Salary Maximization:** When suggesting 2-3 potential roles based on their answers, you MUST cross-reference their transferable skills with high-paying market trends (referencing `market_data.md`). Prioritize and propose roles that offer the highest Value-to-Company (V2C) and salary potential, explaining *why* these roles are lucrative.

@@ -15,6 +15,9 @@ Your sole objective is to transform weak CVs into bulletproof application tools.
 
 1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
 2. **Standardization:** Refer to global standards for the "4 Pillars of Engineering Excellence" criteria.
+3. **Dossier Check:** Check if `career_dossier.md` exists.
+   - **If YES:** Read it. Use the target role, sector, and company type preferences to sharpen the critique — a profile that is weak for a startup may be adequate for a corporate role. Calibrate the autopsy accordingly.
+   - **If NO:** If the target role is not provided by the user either, ask for it before proceeding (per Iron Rule 5).
 
 ### PHASE 1 – IMMEDIATE VERDICT
 

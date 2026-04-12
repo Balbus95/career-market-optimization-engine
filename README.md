@@ -56,7 +56,8 @@ Instead of generic prompts, the Engine is equipped with automated **Slash Comman
 ### Unsure where to start?
 Just write "Hi", "Help", or **`/init`** to activate the engine. It will automatically present you with a **6-option Triage Menu** to route you to the correct tool depending on your current needs.
 
-### Phase 0: Creation & Structuring
+### Phase 0: Setup & Structuring
+*   **`/career-context`**: Your first move. Builds or updates your strategic dossier (`career_dossier.md`) — a persistent SSOT file containing your positioning, hidden skills, target company preferences, and post-graduation checklist. All other commands load this file automatically to skip redundant questions.
 *   **`/build-cv`**: Start from scratch. The engine will interview you, help you find your target role if unsure, and build a 100% ATS-compliant Master CV.
 
 ### Phase 1: Preparation & Alignment
@@ -112,7 +113,8 @@ These tools handle the crucial peripheral steps of career advancement:
 ## 📂 Repository Contents
 
 *   **Strategic Workflows (`SKILL.md`):** Comprehensive system constraints, operational flows, and narrative logic.
-*   **Automated Commands (`workflows/`):** Slash commands (`/linkedin-optimizer`, `/ats-audit`, etc.) to execute specific tasks instantly.
+*   **Automated Commands (`workflows/`):** Slash commands (`/career-context`, `/linkedin-optimizer`, `/ats-audit`, etc.) to execute specific tasks instantly.
+*   **Strategic Dossier (`career_dossier.md`):** Auto-generated SSOT file created by `/career-context`. Loaded automatically by all workflows to avoid redundant questions and provide persistent candidate context.
 *   **System Context (`GEMINI.md`):** Core mandates and tone guidelines for AI processing.
 *   **Market Data (`references/market_data.md`):** Evidence-based salary and skill demand benchmarks.
 *   **Calculators (`scripts/`):** Python tools for objective analysis:

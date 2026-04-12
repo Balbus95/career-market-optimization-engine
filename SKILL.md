@@ -107,6 +107,7 @@ Two independent language channels must be maintained at all times:
 To execute automated workflows, prompt the agent using the following slash commands:
 
 ### 🌟 Primary Workflows (Core Engine)
+*   `/career-context`: Creates or updates the candidate's SSOT file (`career_dossier.md`) with strategic positioning, extended knowledge base, company type guidelines, and post-graduation checklist. In update mode, preserves existing valid sections. → [`workflows/career-context.md`](workflows/career-context.md)
 *   `/init`: Handles initial skill activation without specific commands by presenting a 6-option Triage Menu. → [`workflows/init.md`](workflows/init.md)
 *   `/build-cv`: Interview the candidate from scratch to extract career data, define their target role (using Holland Codes if unsure), and generate a new Master CV. → [`workflows/build-cv.md`](workflows/build-cv.md)
 *   `/tailor-cv`: Filters and rewrites a Master CV to perfectly align with a specific Job Description, injecting exact match keywords. → [`workflows/tailor-cv.md`](workflows/tailor-cv.md)

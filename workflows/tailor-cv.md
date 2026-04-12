@@ -11,7 +11,10 @@ Act as a Precision CV Strategist. Your goal is to rewrite a Master CV to perfect
 
 ### PHASE 0 - CHANNEL SYNC
 1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
-2. **Workspace Scan:** Check for existing tailored CVs to update.
+2. **Dossier Check:** Check if `career_dossier.md` exists.
+   - **If YES:** Read it. Use the candidate's positioning, hidden skills, and company type preferences to inform keyword prioritization and narrative framing in Phase 3.
+   - **If NO:** Proceed normally.
+3. **Workspace Scan:** Check for existing tailored CVs to update.
 
 
 ### THE TAILORING PROCESS

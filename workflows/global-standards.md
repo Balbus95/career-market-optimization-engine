@@ -26,6 +26,13 @@ $$P = (Importance \times Frequency) \times (5 - Current Level)$$
 - **Fonts (Recommended):** Roboto, Arial, Calibri, Verdana (modern web-safe stack).
 - **Tone:** Technical, ROI-driven, data-backed. No flowery language.
 
+## 6. Dossier Protocol
+Before executing any workflow, check if `career_dossier.md` exists in the working directory.
+- **If YES:** Read it silently. Use its data to pre-populate context (positioning, target role, hidden skills, company preferences) and skip any interview questions already answered in the dossier. Announce to the user: *"📂 Dossier loaded — using your saved context."*
+- **If NO:** Proceed normally. At the end of the workflow, suggest: *"💡 Run `/career-context` to build your strategic dossier and save time in future sessions."*
+
+This rule applies to ALL workflows.
+
 ## 5. Channel Sync Policy
 At the start of ANY document generation:
 1. Confirm **Working Language**.
