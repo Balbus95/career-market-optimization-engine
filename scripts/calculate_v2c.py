@@ -29,7 +29,7 @@ def main():
     print("\n--- Value-to-Company (V2C) Analysis ---")
     print(f"Calculated ROI Value: ${score:,.2f}")
     
-    # Heuristic for salary estimation (typically 20-40% of generated value for high-impact roles)
+    # Heuristic for salary estimation (typically 15-35% of generated value for high-impact roles)
     low_bound = score * 0.15
     high_bound = score * 0.35
     

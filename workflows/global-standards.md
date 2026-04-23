@@ -1,6 +1,6 @@
 # Career Market Engine: Global Standards
 
-These standards govern ALL content generation and analysis within the engine. Referencing this file ensures consistency across all 26+ workflows.
+These standards govern ALL content generation and analysis within the engine. Referencing this file ensures consistency across all 27+ workflows.
 
 ## 1. The Success Story Framework (STAR+)
 Every professional bullet point MUST follow this logic:
@@ -8,6 +8,10 @@ Every professional bullet point MUST follow this logic:
 - **Context/Problem:** The specific challenge or scale (e.g., "during a 30% budget cut").
 - **Action Taken:** The unique intervention performed.
 - **Metric/Result:** Hard proof (%, $, ⏱️) or documented Qualitative Impact.
+- **The "So what?" Test (Signal Relevance Index):** Every bullet must pass this validation before finalizing.
+  - ✅ **STRONG SIGNAL:** contains currency ($/€), time saved (hours/days/months), percentage (%), or measurable volume (users, rows, projects, team size).
+  - ⚠️ **WEAK SIGNAL:** no quantification → flag the bullet and request a metric from the user, or rewrite using qualitative scale markers (stakeholder level, project scope, complexity tier) explicitly labeled as qualitative.
+  - This applies regardless of STAR compliance: a well-structured bullet without a "So what?" answer is still a weak signal. The Grace Clause (NDA/force majeure) is the only valid exception.
 
 ## 2. Value-to-Company (V2C) Formula
 When estimating salary or impact, use the logic from `scripts/calculate_v2c.py`:
@@ -18,6 +22,8 @@ When performing gap analysis, use the logic from `scripts/calculate_priority.py`
 $$P = (Importance \times Frequency) \times (5 - Current Level)$$
 
 ## 4. Technical Document Standards
+**Objective:** Structural conformance with ATS parsing grammar. This reduces format-based rejection risk; it does not guarantee selection. Content quality remains the candidate's responsibility.
+
 - **Primary Engine Format:** Single-column Markdown.
 - **Output Tiers:**
     *   **Tier 1 (Universal):** HTML Shell (No dependencies).
@@ -26,16 +32,16 @@ $$P = (Importance \times Frequency) \times (5 - Current Level)$$
 - **Fonts (Recommended):** Roboto, Arial, Calibri, Verdana (modern web-safe stack).
 - **Tone:** Technical, ROI-driven, data-backed. No flowery language.
 
-## 6. Dossier Protocol
-Before executing any workflow, check if `career_dossier.md` exists in the working directory.
-- **If YES:** Read it silently. Use its data to pre-populate context (positioning, target role, hidden skills, company preferences) and skip any interview questions already answered in the dossier. Announce to the user: *"📂 Dossier loaded — using your saved context."*
-- **If NO:** Proceed normally. At the end of the workflow, suggest: *"💡 Run `/career-context` to build your strategic dossier and save time in future sessions."*
-
-This rule applies to ALL workflows.
-
 ## 5. Channel Sync Policy
 At the start of ANY document generation:
 1. Confirm **Working Language**.
 2. Perform **In-Place Modification** of existing workspace files if present.
 3. Apply **Multilingual Output** based on the user's active language (per the Language Policy in `SKILL.md`). Generate translations only if the user explicitly requests them.
 4. **Confirm** save path to the user.
+
+## 6. Dossier Protocol
+Before executing any workflow, check if `career_dossier.md` exists in the working directory.
+- **If YES:** Read it silently. Use its data to pre-populate context (positioning, target role, hidden skills, company preferences) and skip any interview questions already answered in the dossier. Announce to the user: *"📂 Dossier loaded — using your saved context."*
+- **If NO:** Proceed normally. At the end of the workflow, suggest: *"💡 Run `/career-context` to build your strategic dossier and save time in future sessions."*
+
+This rule applies to ALL workflows.

@@ -1,6 +1,6 @@
 ---
 name: career-market-optimization-engine
-description: Analyze professional profiles and job descriptions to engineer ATS-optimized resumes, LinkedIn profiles, and career strategies using STAR metrics and boolean search logic.
+description: A noise-reduction and signal-optimization framework that enforces ATS structural conformance, engineers LinkedIn visibility, and transforms career data into evidence-based application materials using STAR metrics, V2C scoring, and Advanced Prospect Research.
 version: 1.2.0
 author: Balbus95
 website: https://github.com/Balbus95/career-market-optimization-engine
@@ -111,12 +111,12 @@ To execute automated workflows, prompt the agent using the following slash comma
 *   `/init`: Handles initial skill activation without specific commands by presenting a 6-option Triage Menu. → [`workflows/init.md`](workflows/init.md)
 *   `/build-cv`: Interview the candidate from scratch to extract career data, define their target role (using Holland Codes if unsure), and generate a new Master CV. → [`workflows/build-cv.md`](workflows/build-cv.md)
 *   `/tailor-cv`: Filters and rewrites a Master CV to perfectly align with a specific Job Description, injecting exact match keywords. → [`workflows/tailor-cv.md`](workflows/tailor-cv.md)
-*   `/linkedin-optimizer`: Generates an ATS-optimized Headline (max 220 chars), a 250-word About section "hook", and extracts top Hard/Soft skills. → [`workflows/linkedin-optimizer.md`](workflows/linkedin-optimizer.md)
+*   `/linkedin-optimizer`: Engineers the first 275-character mobile hook + a 200-250 word About section, generates an ATS-optimized Headline (max 220 chars), and extracts 15 Hard Skills & Tools + 5 Soft Skills. → [`workflows/linkedin-optimizer.md`](workflows/linkedin-optimizer.md)
 *   `/rewrite-impact`: Rewrites standard CV bullet points into the STAR/PAR framework, highlighting measurable metrics. → [`workflows/rewrite-impact.md`](workflows/rewrite-impact.md)
 *   `/ats-audit`: Performs a strict compliance check on a CV text against ATS parsing rules (headings, fonts, structure) and provides a pass/fail score. → [`workflows/ats-audit.md`](workflows/ats-audit.md)
 *   `/final-audit`: Performs a 360-degree final evaluation across 4 pillars (ATS, Target Alignment, Action & Impact, Professional Tone) generating a final score and dashboard. → [`workflows/final-audit.md`](workflows/final-audit.md)
 *   `/v2c-salary`: Calculates the candidate's Value-to-Company (ROI) based on achievements and provides a data-driven salary range and negotiation script. → [`workflows/v2c-salary.md`](workflows/v2c-salary.md)
-*   `/boolean-hack`: Generates 3 complex Boolean search strings (for LinkedIn and Google) to uncover hidden job opportunities. → [`workflows/boolean-hack.md`](workflows/boolean-hack.md)
+*   `/boolean-hack`: Advanced Prospect Research via Boolean strings — applies the Direct-to-Manager methodology used by Sales SDRs to surface Hiring Managers and hidden job posts outside aggregator boards. → [`workflows/boolean-hack.md`](workflows/boolean-hack.md)
 *   `/ruthless-mentor`: Adopts a brutally honest HR persona to tear down weak profiles and perform a surgical rewrite. → [`workflows/ruthless-mentor.md`](workflows/ruthless-mentor.md)
 *   `/cover-letter`: Generates an aggressive, ROI-driven cover letter focused entirely on problem-solving. → [`workflows/cover-letter.md`](workflows/cover-letter.md)
 *   `/interview-prep`: Simulates a demanding interview by generating the 5 most probable questions and providing STAR answer strategies. → [`workflows/interview-prep.md`](workflows/interview-prep.md)

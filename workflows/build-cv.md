@@ -18,8 +18,8 @@ description: Build a Master CV from scratch through a guided, interactive interv
 
 1. Ask the user for their target role or industry (skip if already in dossier).
 2. **If the user is unsure or lacks a clear target:** Stop and help them find it.
-    * Use Phase 0.3 ("Holland Codes/Ikigai") from `SKILL.md`. Ask them what tasks they enjoy most, what problems they are good at solving, and what kind of environment they prefer.
-    * **ROI & Salary Maximization:** When suggesting 2-3 potential roles based on their answers, you MUST cross-reference their transferable skills with high-paying market trends (referencing `market_data.md`). Prioritize and propose roles that offer the highest Value-to-Company (V2C) and salary potential, explaining *why* these roles are lucrative.
+    * Use Phase 0, step 3 ("Holland Codes/Ikigai") from `SKILL.md`. Ask them what tasks they enjoy most, what problems they are good at solving, and what kind of environment they prefer.
+    * **ROI & Salary Maximization:** When suggesting 2-3 potential roles based on their answers, you MUST cross-reference their transferable skills with high-paying market trends (referencing `references/market_data.md`). Prioritize and propose roles that offer the highest Value-to-Company (V2C) and salary potential, explaining *why* these roles are lucrative.
 3. Ask for essential contact data (Name, City/Country, LinkedIn/GitHub links). No photos or physical addresses.
 
 ### PHASE 1 - CAREER CHRONOLOGY (Iterative Extraction)

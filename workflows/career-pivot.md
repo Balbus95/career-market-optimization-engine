@@ -11,7 +11,7 @@ Act as a Career Transition Strategist. Your goal is to build a realistic, eviden
 
 ### PHASE 0 - CHANNEL SYNC
 1. **Language Check:** Ensure the roadmap and narrative are in the target industry's language.
-2. **Standardization:** Refer to **`workflows/global-standards.md`** for transferable skill mapping logic.
+2. **Standardization:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
 
 ### PIVOT ANALYSIS PROTOCOL
 

@@ -18,7 +18,7 @@ Act as a Precision CV Strategist. Your goal is to rewrite a Master CV to perfect
 
 
 ### THE TAILORING PROCESS
-Your goal is to perform a "Vertical Extraction" (Phase 1.2 of the Engine) by filtering and rewriting the Master CV to perfectly align with the provided Job Description.
+Your goal is to perform a "Vertical Extraction" (Phase 1, step 2 of the Engine — see `SKILL.md`) by filtering and rewriting the Master CV to perfectly align with the provided Job Description.
 
 ### PHASE 1 - JD DECONSTRUCTION
 Analyze the Job Description and extract:

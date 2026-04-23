@@ -7,7 +7,7 @@
 *   **Parsing Rules:**
     *   **Strict Single Column:** Multi-column layouts scramble reading order for 88% of parsers.
     *   **No Tables/Graphics:** Icons, skill bars, and tables are often invisible to NLP engines.
-    *   **Safe Fonts:** Arial, Calibri, Verdana, Georgia, Roboto, Lora (10-12pt body, 14-16pt headings).
+    *   **Safe Fonts:** Roboto, Arial, Calibri, Verdana (10-12pt body, 14-16pt headings).
     *   **Margins:** 0.5" to 1" on all sides.
     *   **Mobile Layout:** Optimized for vertical scrolling on recruiter mobile apps.
 *   **Format Priority (Submission):** 1. `.docx` (Gold Standard for recruiter submission) | 2. `PDF` (Standard Text) | 3. `Markdown` (Source of Truth for AI editing — always maintained internally by the engine, never submitted directly).
@@ -32,7 +32,7 @@
 
 ## D. LinkedIn Optimization 2.0 (2025-2030)
 *   **Headline Formula:** `[Target Title] | [Key Accomplishment/ROI] | [3-4 Core Hard Skills]`
-*   **UVP Hook (About):** Optimize the first 265-275 characters. Use first-person storytelling.
+*   **UVP Hook (About):** Optimize the first 275 characters. Use first-person storytelling.
 *   **Skills Graph:** Pin the top 3 skills. Profiles with 5+ skills get 17x more views.
 *   **Engagement Hack:** Use the "Featured" section for PDF case studies (Problem -> Solution -> Result) to boost credibility.
 

@@ -18,17 +18,15 @@ jobs:
 
     - name: Create Release
       id: create_release
-      uses: actions/create-release@v1
+      uses: softprops/action-gh-release@v2
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by GitHub
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
         body: |
           # Release Notes
 
           ${{ github.event.head_commit.message }}
-          
+
           See changes in this release: ${{ github.event.repository.html_url }}/compare/${{ github.event.before }}...${{ github.ref }}
         draft: false
         prerelease: false

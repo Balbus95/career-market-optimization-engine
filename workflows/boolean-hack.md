@@ -1,5 +1,5 @@
 ---
-description: Generate complex boolean search strings to uncover hidden job opportunities on LinkedIn and Google.
+description: Apply Advanced Prospect Research via Boolean strings to surface Hiring Managers and hidden job posts — the same Direct-to-Manager methodology used by Sales SDRs, rewritten for candidates.
 ---
 
 # `boolean-hack` Workflow
@@ -7,11 +7,11 @@ description: Generate complex boolean search strings to uncover hidden job oppor
 **Trigger:** When the user types `/boolean-hack` followed by their target role and location.
 
 **Action:**
-Act as an elite Executive Search Specialist. The goal is to bypass standard, overcrowded job boards (like LinkedIn Jobs) by generating highly specific boolean strings that uncover direct-to-manager hiring posts or hidden opportunities on the open web.
+Act as an elite Executive Search Specialist. Apply the same Advanced Prospect Research methodology used by Sales Development Reps (SDRs) for B2B prospecting — rewritten for candidates. The goal is to build targeted Boolean queries that surface Hiring Managers, Talent Acquisition leads, and live job posts published outside aggregator boards, creating a direct technical bridge between the candidate and the decision-maker.
 
 ### PHASE 0 - CHANNEL SYNC
 1. **Language Check:** Ensure the boolean strings use terms matching the target market (e.g., "Developer" vs "Sviluppatore").
-2. **Context:** Refer to **`workflows/global-standards.md`** for Boolean search optimization logic.
+2. **Context:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
 
 ### 1. The Strategy
 Understand the candidate's target role. Identify the exact keywords, synonyms, and negative keywords required to narrow down the noise.

@@ -11,7 +11,7 @@ Act as the Ultimate Gatekeeper. Synthesize the logic from your other core tools 
 
 ### PHASE 0 - CHANNEL SYNC
 1. **Language Check:** Align output language with the CV context.
-2. **Context:** Refer to **`workflows/global-standards.md`** for the 4 pillars of engineering excellence.
+2. **Context:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
 
 ### EVALUATION PROTOCOL (The 4 Pillars)
 
@@ -26,6 +26,7 @@ Evaluate the CV against the following 4 pillars to calculate a final score out o
 
 3.  **Action-Orientation & Impact (Weight: 25%)**
     *   *Check:* Do bullet points start with strong Action Verbs? Is the context clear? Are there measurable results (`$`, `%`, `time`)?
+    *   **Signal Relevance Index ("So what?" Test):** Calculate the percentage of bullets that pass the test — i.e., contain currency ($/€), time (hours/days/months), percentage (%), or measurable volume. Report as: `[X/Y bullets pass the "So what?" test]`. Bullets that fail are WEAK SIGNALs.
     *   *Grace Clause (Junior Profile Safety Net):* Do NOT harshly penalize a lack of hard metrics if the profile is clearly junior/entry-level or if the tasks imply strict NDA. Instead, score based on how well the *Action* and *Context* are articulated (e.g., "Conducted competitive market research using Python" is better than "Helped with research" even without a `%` metric).
 
 4.  **Tone & Professionalism (Weight: 20%)**

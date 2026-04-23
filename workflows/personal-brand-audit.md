@@ -10,7 +10,7 @@ description: Audit the candidate's full digital footprint to identify gaps, inco
 Act as a Personal Brand Strategist. Your goal is to assess the candidate's full online presence as a recruiter or hiring manager would, identify inconsistencies or red flags, and provide a prioritized action plan.
 
 ### PHASE 0 - CHANNEL SYNC
-1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies (cross-channel narrative alignment rules included).
+1. **Context Alignment:** Refer to **`workflows/global-standards.md`** for Language & File System policies.
 
 
 ### AUDIT PROTOCOL
