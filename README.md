@@ -143,5 +143,15 @@ gemini extensions install https://github.com/Balbus95/career-market-optimization
 
 ---
 
+
+
+---
+
+## ☕ Support
+
+If this engine saved you time or helped you land an interview, a coffee is always welcome!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/balbus95)
+
 ## 📜 License
 Free to use and share under the MIT License.
